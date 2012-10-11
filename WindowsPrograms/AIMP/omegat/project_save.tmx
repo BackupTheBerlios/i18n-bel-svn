@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header
-    creationtool="OmegaT"
-    creationtoolversion="2.2.0_2"
-    segtype="paragraph"
-    o-tmf="OmegaT TMX"
-    adminlang="EN-US"
-    srclang="RU"
-    datatype="plaintext"
-  >
-  </header>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="2.6.1_1" segtype="paragraph" srclang="RU"/>
   <body>
+<!-- Default translations -->
     <tu>
       <tuv lang="RU">
         <seg>$AIMP-&gt;AddFiles.h</seg>
@@ -50,6 +42,14 @@
       </tuv>
       <tuv lang="be">
         <seg>$AIMP-&gt;CloseBtn.h</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>$AIMP-&gt;CopyInfoAct.h</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T185918Z">
+        <seg>$AIMP-&gt;CopyInfoAct.h</seg>
       </tuv>
     </tu>
     <tu>
@@ -210,6 +210,14 @@
       </tuv>
       <tuv lang="be">
         <seg>$AIMP-&gt;QueueAddTo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>$AIMP-&gt;QueueClear</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120516T063413Z">
+        <seg>$AIMP-&gt;QueueClear</seg>
       </tuv>
     </tu>
     <tu>
@@ -382,10 +390,26 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>$LINK - Официальный сайт проекта</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195905Z">
+        <seg>$LINK — Афіцыйны сайт праекту</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>$MSG-&gt;115</seg>
       </tuv>
       <tuv lang="be">
         <seg>$MSG-&gt;115</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>$MSG-&gt;12</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221230Z">
+        <seg>$MSG-&gt;12</seg>
       </tuv>
     </tu>
     <tu>
@@ -406,10 +430,34 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>$MSG-&gt;123</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T185917Z">
+        <seg>$MSG-&gt;123</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>$MSG-&gt;124</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T185919Z">
+        <seg>$MSG-&gt;124</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>$MSG-&gt;128</seg>
       </tuv>
       <tuv lang="be">
         <seg>$MSG-&gt;128</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>$MSG-&gt;133</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221228Z">
+        <seg>$MSG-&gt;133</seg>
       </tuv>
     </tu>
     <tu>
@@ -552,31 +600,31 @@
       <tuv lang="RU">
         <seg>%A - Альбом</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%A - Альбом</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061735Z">
+        <seg>%A — Альбом</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>%B - Битрейт</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%B - Бітрэйт</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061739Z">
+        <seg>%B — Бітрэйт</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>%C - Кол-во каналов</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%C - К-сьць каналаў</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061744Z">
+        <seg>%C — Колькасьць каналаў</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>%Caps(), Все Слова С Большой Буквы</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174701Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110126T174701Z">
         <seg>%Caps(), Усе Словы Зь Вялікае Літары</seg>
       </tuv>
     </tu>
@@ -592,56 +640,56 @@
       <tuv lang="RU">
         <seg>%D - Путь к файлу</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%D - Шлях да файла</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061749Z">
+        <seg>%D — Шлях да файла</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>%DC - Дата создания файла</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%DC - Дата стварэньня файла</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061843Z">
+        <seg>%DC — Дата стварэньня файла</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>%DN - Номер диска</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%DN - Нумар дыска</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061850Z">
+        <seg>%DN — Нумар дыска</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>%E - Расширение</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%E - Пашырэньне</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061754Z">
+        <seg>%E — Пашырэньне</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>%F - Имя файла</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%F - Назва файла</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061757Z">
+        <seg>%F — Назва файла</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>%G - Жанр</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%G - Жанр</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061801Z">
+        <seg>%G — Жанр</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>%H - Частота дискретизации</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%H - Частата дыскрэтызацыі</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061805Z">
+        <seg>%H — Часьціня дыскрэтызацыі</seg>
       </tuv>
     </tu>
     <tu>
@@ -656,16 +704,16 @@
       <tuv lang="RU">
         <seg>%IN - Порядковый номер в списке</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%IN - Парадкавы нумар у сьпісе</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061834Z">
+        <seg>%IN — Парадкавы нумар у сьпісе</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>%L - Длительность</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%L - Працягласьць</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061809Z">
+        <seg>%L — Працягласьць</seg>
       </tuv>
     </tu>
     <tu>
@@ -680,40 +728,48 @@
       <tuv lang="RU">
         <seg>%M - Оценка</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%M - Ацэнка</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061830Z">
+        <seg>%M — Ацэнка</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>%NL - Новая строка (только для треклиста)</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%NL - Новы радок (толькі для трэклiсту)</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061839Z">
+        <seg>%NL — Новы радок (толькі для трэклiсту)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>%PD - Родительская папка</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061947Z">
+        <seg>%PD — Бацькоўскі каталёґ</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>%R - Исполнитель</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%R - Выканаўца</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061813Z">
+        <seg>%R — Выканаўца</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>%Replace(A, B, C), A - исходная строка, B/С - что/чем заменять</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%Replace(A, B, C), A - зыходны радок, B/C - што/чым замяняць</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061907Z">
+        <seg>%Replace(A, B, C), A — зыходны радок, B/C — што/чым замяняць</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>%S - Размер файла</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T154437Z" changeid="eratyk">
-        <seg>%S - Памер файла</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061817Z">
+        <seg>%S — Памер файла</seg>
       </tuv>
     </tu>
     <tu>
@@ -728,24 +784,32 @@
       <tuv lang="RU">
         <seg>%T - Заголовок</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%T - Загаловак</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061820Z">
+        <seg>%T — Загаловак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>%T - Название</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061938Z">
+        <seg>%T — Назва</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>%TC - Время создания файла</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%TC - Час стварэньня файла</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061847Z">
+        <seg>%TC — Час стварэньня файла</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>%TN - Номер трека</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%TN - Нумар трэка</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061857Z">
+        <seg>%TN — Нумар трэку</seg>
       </tuv>
     </tu>
     <tu>
@@ -760,23 +824,23 @@
       <tuv lang="RU">
         <seg>%Y - Дата</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%Y - Дата</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061825Z">
+        <seg>%Y — Дата</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>%s свободно из %s</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>%s свабодна з %s</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T094415Z">
+        <seg>%s вольна з %s</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>(Все)</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185717Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T185717Z">
         <seg>(Усе)</seg>
       </tuv>
     </tu>
@@ -792,8 +856,8 @@
       <tuv lang="RU">
         <seg>(По умолчанию)</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T173711Z" changeid="eratyk">
-        <seg>Перадвызначэньні</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T212102Z">
+        <seg>(Стандарт)</seg>
       </tuv>
     </tu>
     <tu>
@@ -832,8 +896,8 @@
       <tuv lang="RU">
         <seg>* Плагин будет выгружен из памяти после перезапуска программы</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185613Z" changeid="eratyk">
-        <seg>* Плягін будзе выладаваны з памяці пасьля перазапуску праграмы</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T215844Z">
+        <seg>* Плаґін будзе выладаваны з памяці пасьля перазапуску праґрамы</seg>
       </tuv>
     </tu>
     <tu>
@@ -841,15 +905,32 @@
         <seg>* Плагин будет выгружен из памяти посьле перезапуска программы</seg>
       </tuv>
       <tuv lang="be">
-        <seg>* Плагін будзе выладаваны з памяці пасьля перазапуску праграмы</seg>
+        <seg>* Плаґін будзе выладаваны з памяці пасьля перазапуску праґрамы</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>* Сбросить ползунки в значение по умолчанию можно правой кнопкой мыши</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>* Скінуць паўзункі на перадвызначанае значэньне можна правай клявішай мышы</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T213735Z">
+        <seg>* Скінуць паўзункі да стандартнага значэньня можна правай клявішай мышы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>00000100010010100000010018006803000016000000280000001000000020000000010018000000000040030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001032E0163BE5163BE51637DF1536DC1433D91430D5122DD1122DD11029CF0E27C90D22C60B20C2091CBF0719BE0B10A4153EEB2F60FF3666FF3666FF3566FF2F60FF2E5EFF2758FF2152FF1A4CFF1448FF1640EF0A3FFA0A3FFA1032E00416BE1640EF3B6CFF4372FF4271FF3E6EFF3A6CFF3566FF2E5EFF2859FF2152FF1A4EFF1448FF1446FF0D40FF073BFF0417C00D42FF326BFF3C73FF3B72FF326BFF2B65FF2B65FF245DFF1C58FF1550FF0F4AFF0844FF023EFF003AFF003AFF0416CF1430D51430D51430D51430D51430D51430D51430D51430D51430D51430D51430D51430D51430D51430D5122DD10B10A4B5682ACF812AD5872AD5872AD5872AD5872AD5872AD5872AD5872ACF812ACB7E2AC6792AC2752ABB6E2AAF6024883D29CE6C06EA8300F38C00F78E00FA9100FA9300F99100F38C00EF8800EA8300E98000E27A00DD7400D97200CE6B06AD4804CE6C06EA8300F28A00F78E00FA9300FD9600F99100F38C00EF8800EA8300E67E00E27A00DD7400D97200CE6B06AD4804CF812AE49837E99C37EDA038F5A838F5A838F5A838E99C37E99C37E49837DE9135D5872AD5872AD5872ACB7E2AAF6024B6B6B6E9EFF7EEF5FCF2F8FFF5FBFFF4FAFFF4FAFFF0F6FEEEF5FCE9EFF7E4EBF2DEE4EBDEE4EBD4DBE1CBCFD6929292CBCFD6E9EFF7EEF5FCF2F8FFF4FAFFF5FBFFF4FAFFF2F8FFEEF5FCE9EFF7E4EBF2DEE4EBDEE4EBD8DEE5CBCFD6A9AEB3CFCFCFEBEBEBF2F2F2F6F6F6FAFAFAFBFBFBFAFAFAF4F4F4F1F1F1EBEBEBE9E9E9E3E3E3DEDEDED9D9D9D2D2D2B0B0B0CFCFCFE9E9E9EEEEEEF1F1F1F3F3F3F6F6F6F3F3F3EEEEEEEAEAEAE9E9E9E3E3E3DEDEDED9D9D9D2D2D2CCCCCCB0B0B0C9C9C9D2D2D2CFCFCFCFCFCFCFCFCFCFCFCFCCCCCCC8C8C8C5C5C5C4C4C4C1C1C1BCBCBCBCBCBCB8B8B8B3B3B3AAAAAA000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FFFF0000</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T211014Z">
+        <seg>0000010001001010000001001800680300001600000028000000100000002000000001001800000000004003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000B6B6B6D3D5D7D8D9DAD6D7D9D6D7D7D5D6D7D6D7D8D5D6D8D3D5D7D0D2D4CED0D2CACCCEC6C8CAC3C5C7BEC0C2939393CBCFD6E9EFF7EEF5FCF2F8FFF4FAFFF5FBFFF4FAFFF2F8FFEEF5FCE9EFF7E4EBF2DEE4EBDEE4EBD8DEE5CBCFD6A9AEB3CFCFCFEBEBEBF2F2F2F6F6F6FAFAFAFBFBFBFAFAFAF4F4F4F1F1F1EBEBEBE9E9E9E3E3E3DEDEDED9D9D9D2D2D2B0B0B0CFCFCFE9E9E9EEEEEEF1F1F1F3F3F3F6F6F6F3F3F3EEEEEEEAEAEAE9E9E9E3E3E3DEDEDED9D9D9D2D2D2CCCCCCB0B0B0C9C9C9D2D2D2CFCFCFCFCFCFCFCFCFCFCFCFCCCCCCC8C8C8C5C5C5C4C4C4C1C1C1BCBCBCBCBCBCB8B8B8B3B3B3AAAAAA2A54B52A4FCF2A4DD52A4DD52A4DD52A4DD52A4DD52A4DD52A4DD52A4FCF2A4ECB2A50C62A51C22A52BB2450AF295C880636CE002CEA002AF3002AF7002AFA0028FA002AF9002AF3002BEF002CEA002EE9002FE20031DD0030D90636CE043EAD0636CE002CEA002BF2002AF70028FA0028FD002AF9002AF3002BEF002CEA002EE6002FE20031DD0030D90636CE043EAD2A4FCF3757E43757E93857ED3856F53856F53856F53757E93757E93757E43557DE2A4DD52A4DD52A4DD52A4ECB2450AFB6B6B6E9EFF7EEF5FCF2F8FFF5FBFFF4FAFFF4FAFFF0F6FEEEF5FCE9EFF7E4EBF2DEE4EBDEE4EBD4DBE1CBCFD6929292CBCFD6E9EFF7EEF5FCF2F8FFF4FAFFF5FBFFF4FAFFF2F8FFEEF5FCE9EFF7E4EBF2DEE4EBDEE4EBD8DEE5CBCFD6A9AEB3CFCFCFEBEBEBF2F2F2F6F6F6FAFAFAFBFBFBFAFAFAF4F4F4F1F1F1EBEBEBE9E9E9E3E3E3DEDEDED9D9D9D2D2D2B0B0B0CFCFCFE9E9E9EEEEEEF1F1F1F3F3F3F6F6F6F3F3F3EEEEEEEAEAEAE9E9E9E3E3E3DEDEDED9D9D9D2D2D2CCCCCCB0B0B0C9C9C9D2D2D2CFCFCFCFCFCFCFCFCFCFCFCFCCCCCCC8C8C8C5C5C5C4C4C4C1C1C1BCBCBCBCBCBCB8B8B8B3B3B3AAAAAA000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FFFF0000
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>1</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120516T064941Z">
+        <seg>1</seg>
       </tuv>
     </tu>
     <tu>
@@ -878,6 +959,46 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>3004</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T211318Z">
+        <seg>3004</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>3005</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T093615Z">
+        <seg>3005</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>3006</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20111019T204814Z">
+        <seg>3006</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>3100</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T185448Z">
+        <seg>3100</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>3101</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120516T063229Z">
+        <seg>3101</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>6 месяцев</seg>
       </tuv>
       <tuv lang="be">
@@ -894,6 +1015,11 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>=============================</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>AIMP3-ru.chm</seg>
       </tuv>
       <tuv lang="be">
@@ -902,9 +1028,17 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>AIMP3: Аудио Конвертер</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T191203Z">
+        <seg>AIMP3: Аўдыёканвэртар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>AIMP3: Воспроизвести</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T154417Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T154417Z">
         <seg>AIMP3: Прайграць</seg>
       </tuv>
     </tu>
@@ -922,6 +1056,14 @@
       </tuv>
       <tuv lang="be">
         <seg>AIMP3: Дадаць у плэйліст</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>AIMP3: Расширенный редактор тегов</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20111019T205338Z">
+        <seg>AIMP3: Пашыраны рэдактар тэґаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -944,8 +1086,8 @@
       <tuv lang="RU">
         <seg>Artem Izmaylov</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T155857Z" changeid="eratyk">
-        <seg>Усевалад Чорны (eratyk@tut.by), Pavel Hushcha (paul_fastest@tut.by)</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T185540Z">
+        <seg>Usievaład Čorny (eratyk@tut.by), Pavel Hushcha (paul_fastest@tut.by)</seg>
       </tuv>
     </tu>
     <tu>
@@ -984,8 +1126,8 @@
       <tuv lang="RU">
         <seg>DSP Плагины:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185549Z" changeid="eratyk">
-        <seg>DSP-плягіны:</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T215859Z">
+        <seg>DSP-плаґіны:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1022,6 +1164,14 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>User-Agent:</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T095210Z">
+        <seg>User-Agent:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Vorbis</seg>
       </tuv>
       <tuv lang="be">
@@ -1040,7 +1190,7 @@
       <tuv lang="RU">
         <seg>[!] Вы можете перетащить файл из плейлиста или проводника прямо в поле ввода</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174603Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110126T174603Z">
         <seg>[!] Вы можаце перацягнуць файл з плэйлісту ці вандроўніка наўпрост у поле ўводу.</seg>
       </tuv>
     </tu>
@@ -1048,16 +1198,24 @@
       <tuv lang="RU">
         <seg>[!] Замедлит вывод графики на экран, но даст более качественную картинку при масштабировании</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174525Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110126T174525Z">
         <seg>Запавольвае вывад графікі на экран, але дае больш якасны відарыс падчас маштабаваньня</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[!] Максимальное количество потоков определяется количеством ядер ЦП.</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T191010Z">
+        <seg>[!] Максымальная колькасьць плыняў вызначаецца колькасьцю ядраў ЦП.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>[!] Некоторые плагины могут вести себя нестабильно на высоких разрешениях</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174356Z" changeid="eratyk">
-        <seg>Некаторыя плягіны могуць працаваць нестабільна на высокіх разрознасьцях</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T215852Z">
+        <seg>Некаторыя плаґіны могуць працаваць нестабільна на высокіх разрознасьцях</seg>
       </tuv>
     </tu>
     <tu>
@@ -1072,7 +1230,7 @@
       <tuv lang="RU">
         <seg>Автовыключение компьютера</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185957Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T185957Z">
         <seg>Аўтавыключэньне кампутара</seg>
       </tuv>
     </tu>
@@ -1088,8 +1246,8 @@
       <tuv lang="RU">
         <seg>Автозаполнение (ПКМ - настройка шаблона)</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T162439Z" changeid="eratyk">
-        <seg>Аўтазапаўненьне (ПКМ - налада шаблёну)</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061916Z">
+        <seg>Аўтазапаўненьне (ПКМ — налады шаблёну)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1105,7 +1263,7 @@
         <seg>Автозапуск программы</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Аўтазапуск праграмы</seg>
+        <seg>Аўтазапуск праґрамы</seg>
       </tuv>
     </tu>
     <tu>
@@ -1126,6 +1284,14 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Автоматическая подстройка эквалайзера под песню</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T212004Z">
+        <seg>Аўтаматычнае падладжваньне эквалайзэра пад песьню</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Автоматическая транслитерация</seg>
       </tuv>
       <tuv lang="be">
@@ -1136,7 +1302,7 @@
       <tuv lang="RU">
         <seg>Автоматически добавлять файлы в БД</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T172150Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T172150Z">
         <seg>Аўтаматычна дадаваць файлы ў базу зьвестак</seg>
       </tuv>
     </tu>
@@ -1144,7 +1310,7 @@
       <tuv lang="RU">
         <seg>Автоматически добавлять файлы со сменных носителей в БД</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T172248Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T172248Z">
         <seg>Аўтаматычна дадаваць файлы са зьменных носьбітаў у базу зьвестак</seg>
       </tuv>
     </tu>
@@ -1158,9 +1324,17 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Автоматически объединять одноименные группы</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221041Z">
+        <seg>Аўтаматычна яднаць аднаназоўныя групы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Автоматически переходить на следующий трек</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T183910Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T183910Z">
         <seg>Аўтаматычна пераходзіць на наступны трэк</seg>
       </tuv>
     </tu>
@@ -1170,6 +1344,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Аўтаматычна пераходзіць на наступны трэк</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Автоматический выбор преднастройки эквалайзера для песни</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190632Z">
+        <seg>Аўтаматычны выбар перадналады эквалайзэра для песьні</seg>
       </tuv>
     </tu>
     <tu>
@@ -1222,10 +1404,18 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Активные плейлисты</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190133Z">
+        <seg>Актыўныя плэйлісты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Активный DSP-плагин</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185527Z" changeid="eratyk">
-        <seg>Актыўны DSP-плягін</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T215824Z">
+        <seg>Актыўны DSP-плаґін</seg>
       </tuv>
     </tu>
     <tu>
@@ -1238,7 +1428,7 @@
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Анализ файла &quot;на лету&quot;</seg>
+        <seg>Анализ файла "на лету"</seg>
       </tuv>
       <tuv lang="be">
         <seg>Хуткасны аналіз файла</seg>
@@ -1249,7 +1439,7 @@
         <seg>Анимация бегущей строки</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Анімацыя бягучага радка</seg>
+        <seg>Анімацыя бягучага радку</seg>
       </tuv>
     </tu>
     <tu>
@@ -1270,9 +1460,25 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Ассоциировать $NAME с аудио файлами и плейлистами</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195404Z">
+        <seg>Засацыяваць $NAME з аўдыёфайламі і плэйлістамі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Аудио Конвертер</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190122Z">
+        <seg>Аўдыёканвэртар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Аудио файлы</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T162957Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T162957Z">
         <seg>Аўдыёфайлы</seg>
       </tuv>
     </tu>
@@ -1288,7 +1494,7 @@
       <tuv lang="RU">
         <seg>Баланс</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T173735Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110126T173735Z">
         <seg>Балянс</seg>
       </tuv>
     </tu>
@@ -1296,7 +1502,7 @@
       <tuv lang="RU">
         <seg>Банк инструментов</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T160510Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T160510Z">
         <seg>Банк інструмэнтаў</seg>
       </tuv>
     </tu>
@@ -1304,8 +1510,16 @@
       <tuv lang="RU">
         <seg>Банк инструментов не найден или имеет неправильный формат.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T162249Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T162249Z">
         <seg>Банк інструмэнтаў ня знойдзены ці мае няправільны фармат.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Бас</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20111019T205320Z">
+        <seg>Бас</seg>
       </tuv>
     </tu>
     <tu>
@@ -1328,7 +1542,7 @@
       <tuv lang="RU">
         <seg>Без изменений</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T162814Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T162814Z">
         <seg>Бязь зьменаў</seg>
       </tuv>
     </tu>
@@ -1338,6 +1552,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Без зьменаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Без потерь</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211624Z">
+        <seg>Бяз стратаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -1358,9 +1580,17 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Битрейт:</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211517Z">
+        <seg>Бітрэйт:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Блокировать отключение монитора</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T163120Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T163120Z">
         <seg>Блякаваць выключэньне манітора</seg>
       </tuv>
     </tu>
@@ -1382,6 +1612,14 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Быстрое сжатие</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211555Z">
+        <seg>Хуткі сьціск</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Быстрые настройки</seg>
       </tuv>
       <tuv lang="be">
@@ -1398,10 +1636,18 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Быстрый поиск (начать / продолжить)</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T185936Z">
+        <seg>Хуткі пошук (пачаць / працягнуць)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Быстрый редактор тегов</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Хуткі рэдактар тэгаў</seg>
+        <seg>Хуткі рэдактар тэґаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -1440,8 +1686,8 @@
       <tuv lang="RU">
         <seg>В файлах WMA размер обложки не может превышать 60 Кб</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T161858Z" changeid="eratyk">
-        <seg>У файлах WMA памер вокладкі ня можа перавышаць 60 КБ</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T094349Z">
+        <seg>У файлах WMA памер вокладкі ня можа перавышаць 60 кБ</seg>
       </tuv>
     </tu>
     <tu>
@@ -1450,6 +1696,14 @@
       </tuv>
       <tuv lang="be">
         <seg>У файлах WMA памер вокладкі не можа перавышаць 60 Кб</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Вас приветствует мастер установки $NAME!</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T194213Z">
+        <seg>Вас вітае майстар усталёўваньня $NAME!</seg>
       </tuv>
     </tu>
     <tu>
@@ -1470,6 +1724,22 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Версия для установки на переносные носители (например, флеш-карты).\nНастройки хранятся в папке с программой, не оставляет следов в системе.</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195000Z">
+        <seg>Вэрсія для ўсталёўваньня на пераносныя носьбіты (кшталту флэш-карты).\nНалады захоўваюцца ў каталёґу з праґрамай і не пакідаюць сьлядоў у сыстэме.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Версия программы</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T194752Z">
+        <seg>Вэрсія праґрамы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Вести CUE-лог</seg>
       </tuv>
       <tuv lang="be">
@@ -1482,6 +1752,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Візуалізацыя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Включать контрольную сумму в файл</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211446Z">
+        <seg>Уключаць кантрольную суму ў файл</seg>
       </tuv>
     </tu>
     <tu>
@@ -1504,8 +1782,8 @@
       <tuv lang="RU">
         <seg>Внимание! Эта операция сбросит список преднастроек в значение по умолчанию!</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T155721Z" changeid="eratyk">
-        <seg>Увага! Гэтая апэрацыя скіне сьпіс наладаў у перадвызначаны стан!</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T212201Z">
+        <seg>Увага! Гэтая апэрацыя скіне сьпіс наладаў да стандартнага стану!</seg>
       </tuv>
     </tu>
     <tu>
@@ -1513,14 +1791,14 @@
         <seg>Возможно, данная клавиша уже используется другой программой</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Магчыма, гэтая клявіша ўжо выкарыстоўваецца іншай праграмай</seg>
+        <seg>Магчыма, гэтая клявіша ўжо выкарыстоўваецца іншай праґрамай</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Воспроизведение</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174045Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110126T174045Z">
         <seg>Прайграваньне</seg>
       </tuv>
     </tu>
@@ -1528,15 +1806,31 @@
       <tuv lang="RU">
         <seg>Воспроизвести</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T154920Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T154920Z">
         <seg>Прайграць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Воспроизвести в AIMP3</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T211813Z">
+        <seg>Прайграць у AIMP3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Воспроизвести в Фонотеке</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T191152Z">
+        <seg>Прайграць у Фанатэцы</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Воспроизвести выбранный файл</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T170201Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T170201Z">
         <seg>Прайграць абраны файл</seg>
       </tuv>
     </tu>
@@ -1544,7 +1838,7 @@
       <tuv lang="RU">
         <seg>Воспроизвести с начала</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T155117Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T155117Z">
         <seg>Прайграць з пачатку</seg>
       </tuv>
     </tu>
@@ -1616,7 +1910,7 @@
       <tuv lang="RU">
         <seg>Все большими буквами</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174711Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110126T174711Z">
         <seg>УСЁ ВЯЛІКІМІ ЛІТАРАМІ</seg>
       </tuv>
     </tu>
@@ -1624,7 +1918,7 @@
       <tuv lang="RU">
         <seg>Все маленькими буквами</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174928Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110126T174928Z">
         <seg>усё малымі літарамі</seg>
       </tuv>
     </tu>
@@ -1632,7 +1926,7 @@
       <tuv lang="RU">
         <seg>Все слова с большой буквы</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174646Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110126T174646Z">
         <seg>Усе Словы Зь Вялікае Літары</seg>
       </tuv>
     </tu>
@@ -1640,7 +1934,7 @@
       <tuv lang="RU">
         <seg>Всегда показывать иконку в трее</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T171807Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T171807Z">
         <seg>Заўсёды паказваць значак у латку</seg>
       </tuv>
     </tu>
@@ -1649,7 +1943,7 @@
         <seg>Всегда сохранять плейлисты в папке профиля пользователя</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Заўсёды захоўваць плэйлісты ў каталёгу профілю карыстальніка</seg>
+        <seg>Заўсёды захоўваць плэйлісты ў каталёґу профілю карыстальніка</seg>
       </tuv>
     </tu>
     <tu>
@@ -1686,6 +1980,30 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Вы уверены, что хотите отменить установку $NAME?</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T184515Z">
+        <seg>Вы сапраўды жадаеце скасаваць усталёўваньне $NAME? </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Выберите параметры интеграции в Windows</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195232Z">
+        <seg>Наладзьце інтэґрацыю з Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Выбор версии программы в режиме обновления недоступен.</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195024Z">
+        <seg>Выбар вэрсіі праґрамы ў рэжыме абнаўленьня недаступны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Выбор действия</seg>
       </tuv>
       <tuv lang="be">
@@ -1697,15 +2015,15 @@
         <seg>Выбор папки</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Абраньне каталёга</seg>
+        <seg>Абраньне каталёґу</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Выбор языка интерфейса</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Абраньне мовы інтэрфэйса</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T093755Z">
+        <seg>Абраньне мовы інтэрфэйсу</seg>
       </tuv>
     </tu>
     <tu>
@@ -1734,10 +2052,26 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Выбрать папку в качестве прообраза</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190257Z">
+        <seg>Абраць каталёґ у якасьці правобразу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Выбрать плейлист</seg>
       </tuv>
       <tuv lang="be">
         <seg>Абраць плэйліст</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Выбрать плейлист в качестве прообраза</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190244Z">
+        <seg>Абраць плэйліст у якасьці правобразу</seg>
       </tuv>
     </tu>
     <tu>
@@ -1777,7 +2111,7 @@
         <seg>Выйти из программы</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Выйсьці з праграмы</seg>
+        <seg>Выйсьці з праґрамы</seg>
       </tuv>
     </tu>
     <tu>
@@ -1792,8 +2126,16 @@
       <tuv lang="RU">
         <seg>Выключить компьютер</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190002Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T190002Z">
         <seg>Выключыць кампутар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Выключить компьютер после окончания конвертации</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120516T063532Z">
+        <seg>Выключыць кампутар пасьля сканчэньня канвэртацыі</seg>
       </tuv>
     </tu>
     <tu>
@@ -1808,8 +2150,8 @@
       <tuv lang="RU">
         <seg>Выполнено...</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Выканана...</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061622Z">
+        <seg>Выканана…</seg>
       </tuv>
     </tu>
     <tu>
@@ -1832,15 +2174,23 @@
       <tuv lang="RU">
         <seg>Выход</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Выйсьце</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T094720Z">
+        <seg>Выхад</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Гибридный</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211631Z">
+        <seg>Гібрыдны</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Главное меню</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T164236Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T164236Z">
         <seg>Галоўнае мэню</seg>
       </tuv>
     </tu>
@@ -1856,7 +2206,7 @@
       <tuv lang="RU">
         <seg>Глобальные 1</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T171507Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T171507Z">
         <seg>Глябальныя 1</seg>
       </tuv>
     </tu>
@@ -1864,7 +2214,7 @@
       <tuv lang="RU">
         <seg>Глобальные 2</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T171514Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T171514Z">
         <seg>Глябальныя 2</seg>
       </tuv>
     </tu>
@@ -1890,6 +2240,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Гарачыя клявішы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Готово</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T191223Z">
+        <seg>Гатова</seg>
       </tuv>
     </tu>
     <tu>
@@ -1942,9 +2300,17 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Далее</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T184309Z">
+        <seg>Далей</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Данная клавиша уже задействована!</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T160143Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T160143Z">
         <seg>Гэтая клявіша ўжо задзейнічаная!</seg>
       </tuv>
     </tu>
@@ -1952,15 +2318,23 @@
       <tuv lang="RU">
         <seg>Данная операция удалит все файлы и статистику из базы данных! Продолжить?</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T155742Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T155742Z">
         <seg>Гэтая апэрацыя выдаліць усе файлы і статыстыку з базы зьвестак! Працягнуць?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Данная операция удалит статистику и все файлы из базы данных! Продолжить?</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T215951Z">
+        <seg>Гэтая апэрацыя выдаліць статыстыку і ўсе файлы з базы зьвестак! Працягнуць?</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Данная операция удалит файлы с жёсткого диска.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T154857Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T154857Z">
         <seg>Гэтая апэрацыя прыбярэ файлы з дыска. Працягнуць?</seg>
       </tuv>
     </tu>
@@ -1968,7 +2342,7 @@
       <tuv lang="RU">
         <seg>Данная операция удалит файлы с жёсткого диска. Продолжить?</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T155639Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T155639Z">
         <seg>Гэтая апэрацыя выдаліць файлы з дыска. Працягнуць?</seg>
       </tuv>
     </tu>
@@ -1976,8 +2350,8 @@
       <tuv lang="RU">
         <seg>Данная опция отключает возможность создавать более одного плейлиста.\nПри выставлении этой опции остальные вкладки будут автоматически закрыты!</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T173656Z" changeid="eratyk">
-        <seg>Гэтая налада выключае магчымасьць ствараць больш за адзін плэйліст.\nПадчас выстаўленьня гэтай налады астатнія карткі будуць зачыненыя!</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T094323Z">
+        <seg>Гэтая налада выключае магчымасьць ствараць больш за адзін плэйліст.\nПасьля выстаўленьня гэтай налады астатнія ўкладкі будуць зачыненыя!</seg>
       </tuv>
     </tu>
     <tu>
@@ -2006,9 +2380,25 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Деинсталяция</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T200307Z">
+        <seg>Высталёўваньне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Деинсталяция...</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T191144Z">
+        <seg>Высталёўваньне…</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Действие по умолчанию:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174134Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110126T174134Z">
         <seg>Дзеяньне:</seg>
       </tuv>
     </tu>
@@ -2046,18 +2436,18 @@
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Для сортировки по каталогам вы можете использовать символ &quot;\&quot; (%Y\%A - %T)</seg>
+        <seg>Для сортировки по каталогам вы можете использовать символ "\" (%Y\%A - %T)</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190418Z" changeid="eratyk">
-        <seg>Для сартаваньня па каталёгах вы можаце карыстаць сымбаль &quot;\&quot; (%Y\%A - %T)</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061921Z">
+        <seg>Для сартаваньня па каталёґах вы можаце карыстаць сымбаль «\» (%Y\%A — %T)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Для сортировки по каталёгам вы можете использовать символ &quot;\&quot; (%Y\%A - %T)</seg>
+        <seg>Для сортировки по каталёґам вы можете использовать символ "\" (%Y\%A - %T)</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Для сартаваньня па каталёгах вы можаце карыстацб сымбал &quot;\&quot; (%Y\%A - %T)</seg>
+        <seg>Для сартаваньня па каталёґах вы можаце карыстацб сымбал "\" (%Y\%A - %T)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2066,6 +2456,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Дадаць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Добавить в закладки</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T211438Z">
+        <seg>Дадаць у закладкі</seg>
       </tuv>
     </tu>
     <tu>
@@ -2080,16 +2478,16 @@
       <tuv lang="RU">
         <seg>Добавить в каталог радиостанций</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T170337Z" changeid="eratyk">
-        <seg>Дадаць у каталёг радыёстанцый</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110117T170337Z">
+        <seg>Дадаць у каталёґ радыёстанцыяў</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Добавить в каталёг радиостанций</seg>
+        <seg>Добавить в каталёґ радиостанций</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Дадаць у каталёг радыёстанцый</seg>
+        <seg>Дадаць у каталёґ радыёстанцыяў</seg>
       </tuv>
     </tu>
     <tu>
@@ -2110,18 +2508,18 @@
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Добавить в пустой плейлист &quot;Default&quot;</seg>
+        <seg>Добавить в пустой плейлист "Default"</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Дадаць у пусты плэйліст &quot;Default&quot;</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T212331Z">
+        <seg>Дадаць у пусты плэйліст «Default»</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Добавить в список программ по умолчанию</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T173053Z" changeid="eratyk">
-        <seg>Дадаць у сьпіс перадвызначаных праграм</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T060413Z">
+        <seg>Дадаць у сьпіс стандартных праґрамаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -2150,10 +2548,18 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Добавить папки</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T191211Z">
+        <seg>Дадаць каталёґі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Добавить папку</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Дадаць каталёг</seg>
+        <seg>Дадаць каталёґ</seg>
       </tuv>
     </tu>
     <tu>
@@ -2166,6 +2572,14 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Добавить пункт в контекстное меню Проводника Windows</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195714Z">
+        <seg>Дадаць пункт у кантэкстнае мэню вандроўніка Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Добавить ссылку</seg>
       </tuv>
       <tuv lang="be">
@@ -2174,18 +2588,18 @@
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Добавить ссылку в меню команды &quot;выполнить&quot;</seg>
+        <seg>Добавить ссылку в меню команды "выполнить"</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174016Z" changeid="eratyk">
-        <seg>Дадаць спасылку ў мэню каманды &quot;Выканаць&quot;</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T212311Z">
+        <seg>Дадаць спасылку ў мэню загаду «Выканаць»</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Добавить ссылку в мэню команды &quot;выполнить&quot;</seg>
+        <seg>Добавить ссылку в мэню команды "выполнить"</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Дадаць спасылку ў мэню каманды &quot;выканаць&quot;</seg>
+        <seg>Дадаць спасылку ў мэню каманды "выканаць"</seg>
       </tuv>
     </tu>
     <tu>
@@ -2241,7 +2655,7 @@
         <seg>Добавление / Редактирование Видов Группировок</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Даданьне / Рэдагаваньне выглядаў групаваньня</seg>
+        <seg>Даданьне / Рэдаґаваньне выглядаў групаваньня</seg>
       </tuv>
     </tu>
     <tu>
@@ -2262,10 +2676,26 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Добавление файлов / папок</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T191244Z">
+        <seg>Даданьне файлаў / каталёґаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Добавление файлов и папок</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Даданьне файлаў і каталёгаў</seg>
+        <seg>Даданьне файлаў і каталёґаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Добавляет $NAME в список программ по умолчанию\nДобавляет ссылку в меню команды "Выполнить"\nДобавляет пункт в меню автозапуска CD\DVD-дисков</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195612Z">
+        <seg>Дадае $NAME у сьпіс стандартных праґрамаў\nДадае спасылку ў мэню загаду «Выканаць»\nДадае пункт у мэню аўтазапуску кружэлак</seg>
       </tuv>
     </tu>
     <tu>
@@ -2274,6 +2704,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Дадаваць у дзейны плэйліст, калі перададзены адзін файл</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Добавлять паузу между треками</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221111Z">
+        <seg>Дадаваць паўзу паміж трэкамі</seg>
       </tuv>
     </tu>
     <tu>
@@ -2302,10 +2740,18 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Дополнительные языки</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195107Z">
+        <seg>Дадатковыя мовы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Доступна новая версия: %s</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Даступна новая вэрсія: %s</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211751Z">
+        <seg>Даступная новая вэрсія: %s</seg>
       </tuv>
     </tu>
     <tu>
@@ -2328,7 +2774,7 @@
       <tuv lang="RU">
         <seg>Если размер меньше:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190550Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T190550Z">
         <seg>Калі памер меншы за:</seg>
       </tuv>
     </tu>
@@ -2360,7 +2806,7 @@
       <tuv lang="RU">
         <seg>Заблокирован</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T163058Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T163058Z">
         <seg>Заблякаваны</seg>
       </tuv>
     </tu>
@@ -2368,7 +2814,7 @@
       <tuv lang="RU">
         <seg>Заблокировать от изменений</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T163053Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T163053Z">
         <seg>Заблякаваць ад зьменаў</seg>
       </tuv>
     </tu>
@@ -2378,6 +2824,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Заблакаваць ад зьмен</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Завершить</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T184321Z">
+        <seg>Скончыць</seg>
       </tuv>
     </tu>
     <tu>
@@ -2392,7 +2846,7 @@
       <tuv lang="RU">
         <seg>Загружать обложки размером из диапазона:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190501Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T190501Z">
         <seg>Ладаваць вокладкі памерам з дыяпазону:</seg>
       </tuv>
     </tu>
@@ -2430,10 +2884,18 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Загрузка дополнительных компонент...</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T194135Z">
+        <seg>Ладаваньне дадатковых кампанэнтаў…</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Загрузка...</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Ладаваньне...</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061641Z">
+        <seg>Ладаваньне…</seg>
       </tuv>
     </tu>
     <tu>
@@ -2448,7 +2910,7 @@
       <tuv lang="RU">
         <seg>Задержка перед появлением:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T162049Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T162049Z">
         <seg>Затрымка перад зьяўленьнем:</seg>
       </tuv>
     </tu>
@@ -2480,8 +2942,8 @@
       <tuv lang="RU">
         <seg>Закрывать плейлист двойным кликом по вкладке</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185355Z" changeid="eratyk">
-        <seg>Зачыняць плэйліст падвойным пстрыкам па картцы</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T212045Z">
+        <seg>Зачыняць плэйліст падвойным пстрыкам па ўкладцы</seg>
       </tuv>
     </tu>
     <tu>
@@ -2552,7 +3014,7 @@
       <tuv lang="RU">
         <seg>Заменять пробелы знаком подчеркивания</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T161248Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T161248Z">
         <seg>Замяняць прагалы сымбалем падкрэсьліваньня</seg>
       </tuv>
     </tu>
@@ -2560,8 +3022,16 @@
       <tuv lang="RU">
         <seg>Запись без потери качества (для MP3 / AAC / AAC+)</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T162839Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T162839Z">
         <seg>Запіс бяз страты якасьці (для MP3 / AAC / AAC+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Запись потока без перекодировки (только для MP3 / AAC / AAC+)</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221218Z">
+        <seg>Запіс плыні без перакадаваньня (толькі для MP3 / AAC / AAC+)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2569,7 +3039,7 @@
         <seg>Заполнение тегов на основе имени файла</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Запаўненьне тэгаў на аснове назвы файла</seg>
+        <seg>Запаўненьне тэґаў на аснове назвы файла</seg>
       </tuv>
     </tu>
     <tu>
@@ -2598,10 +3068,18 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Запустить $NAME</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T200105Z">
+        <seg>Запусьціць $NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Запустить редактор тегов</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Запусьціць рэдактар тэгаў</seg>
+        <seg>Запусьціць рэдактар тэґаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -2640,7 +3118,7 @@
       <tuv lang="RU">
         <seg>Захват радио (вкл/выкл)</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T170300Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T170300Z">
         <seg>Захоп радыё (укл/выкл)</seg>
       </tuv>
     </tu>
@@ -2670,9 +3148,33 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Из-за патентных ограничений, мы не поставляем вместе с программой кодировщик в формат MP3.\n\nЕсли вам необходим данный функционал - вы должны самостоятельно скачать библиотеку "lame_enc.dll" и установить ее в папку "%s".\n\nДополнительную информацию можно найти на сайтах: %s</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211424Z">
+        <seg>Праз патэнтныя абмежаваньні мы не пастаўляем разам з праґрамай кадавальнік у фармат MP3.\n\nКалі Вам неабходны гэты функцыянал, Вы павінны самастойна спампаваць бібліятэку «lame_enc.dll» і ўсталяваць яе ў каталёґ «%s».\n\nДадатковую інфармацыю можна знайсьці на сайтах: %s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Из-за патентных ограничений, мы не поставляем вместе с программой кодировщики в следующие форматы: %s.\n\nЕсли вам необходим данный функционал - вы можете самостоятельно скачать недостающие библиотеки и установить их в папку "%s".\n\nДополнительную информацию можно найти на сайте: %s</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120516T064748Z">
+        <seg>Праз патэнтныя абмежаваньні мы не пастаўляем разам з праґрамай кадавальнікі ў наступныя фарматы: %s.\n\nКалі Вам неабходны гэты функцыянал, Вы можаце самастойна спампаваць патрэбныя бібліятэкі і ўсталяваць іх у каталёґ «%s».\n\nДадатковую інфармацыю можна знайсьці на сайце: %s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Извлечение новых файлов...</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T190051Z">
+        <seg>Выманьне новых файлаў…</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Изменить громкость при нажатии на горячую клавишу на</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185256Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T185256Z">
         <seg>Зьмяніць пазыцыю пасьля націску на гарачую клявішу на</seg>
       </tuv>
     </tu>
@@ -2680,8 +3182,24 @@
       <tuv lang="RU">
         <seg>Изменить позицию при нажатии на горячую клавишу на</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185140Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T185140Z">
         <seg>Зьмяніць пазыцыю пасьля націску на гарачую клявішу на</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Изменить размер</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T220019Z">
+        <seg>Зьмяніць памер</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Изменить формат</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120516T064755Z">
+        <seg>Зьмяніць фармат</seg>
       </tuv>
     </tu>
     <tu>
@@ -2698,6 +3216,30 @@
       </tuv>
       <tuv lang="be">
         <seg>Зьмяніць пазыцыю падчас націску на гарачую клявішу на</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Импортировать из базы данных AIMP2</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T211758Z">
+        <seg>Імпартаваць з базы зьвестак AIMP2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Импортировать папки...</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190215Z">
+        <seg>Імпартаваць каталёґі…</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Импортировать плейлисты...</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190201Z">
+        <seg>Імпартаваць плэйлісты…</seg>
       </tuv>
     </tu>
     <tu>
@@ -2728,15 +3270,15 @@
       <tuv lang="RU">
         <seg>Инвертировать</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T170510Z" changeid="eratyk">
-        <seg>Інвэртаваць</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T060204Z">
+        <seg>Зынвэртаваць</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Индивидуальные настройки</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T170907Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T170907Z">
         <seg>Пэрсанальныя налады</seg>
       </tuv>
     </tu>
@@ -2745,15 +3287,15 @@
         <seg>Интеграция</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Інтэграцыя</seg>
+        <seg>Інтэґрацыя</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Интеграция в контекстное меню Проводника</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T172338Z" changeid="eratyk">
-        <seg>Інтэграцыя ў кантэкстнае мэню вандроўніка</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110117T172338Z">
+        <seg>Інтэґрацыя ў кантэкстнае мэню вандроўніка</seg>
       </tuv>
     </tu>
     <tu>
@@ -2761,15 +3303,23 @@
         <seg>Интеграция в контекстное мэню Проводника</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Інтэграцыя ў кантэкстнае мэню вандроўніка</seg>
+        <seg>Інтэґрацыя ў кантэкстнае мэню вандроўніка</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Интеграция в меню автозапуска CD/DVD дисков</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T172409Z" changeid="eratyk">
-        <seg>Інтэграцыя ў мэню аўтазапуску кружэлак</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110117T172409Z">
+        <seg>Інтэґрацыя ў мэню аўтазапуску кружэлак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Интеграция в меню автозапуска CD/DVD-дисков</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T213715Z">
+        <seg>Інтэґрацыя ў мэню аўтазапуску кружэлак</seg>
       </tuv>
     </tu>
     <tu>
@@ -2777,7 +3327,15 @@
         <seg>Интеграция в мэню автозапуска CD/DVD дисков</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Інтэграцыя ў мэню аўтазапуску дыскаў</seg>
+        <seg>Інтэґрацыя ў мэню аўтазапуску дыскаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Интегрировать в Windows</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195418Z">
+        <seg>Інтэграваць у Windows</seg>
       </tuv>
     </tu>
     <tu>
@@ -2800,7 +3358,7 @@
       <tuv lang="RU">
         <seg>Инфо о файле</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T172138Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T172138Z">
         <seg>Інфармацыя аб файле</seg>
       </tuv>
     </tu>
@@ -2856,16 +3414,24 @@
       <tuv lang="RU">
         <seg>Искать в имени альбома</seg>
       </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120516T063400Z">
+        <seg>Шукаць у імі альбому</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Искать в имени альбому</seg>
+      </tuv>
       <tuv lang="be">
-        <seg>Шукаць у назьве альбома</seg>
+        <seg>Шукаць у назьве альбому</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Искать в имени исполнителя</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Шукаць у імю выканаўцы</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120516T063407Z">
+        <seg>Шукаць у імі выканаўцы</seg>
       </tuv>
     </tu>
     <tu>
@@ -2910,18 +3476,18 @@
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Использовать &quot;затухание&quot; звука (Pause / Unpause)</seg>
+        <seg>Использовать "затухание" звука (Pause / Unpause)</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Карыстаць &quot;затуханьне&quot; гуку (Pause / Unpause)</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T060420Z">
+        <seg>Карыстаць «затуханьне» гуку (Pause / Unpause)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Использовать &quot;затухание&quot; звука при навигации по треку</seg>
+        <seg>Использовать "затухание" звука при навигации по треку</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Карыстаць &quot;затуханьне&quot; гуку падчас навігацыі па трэку</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T060520Z">
+        <seg>Карыстаць «затуханьне» гуку падчас навігацыі па трэку</seg>
       </tuv>
     </tu>
     <tu>
@@ -2929,14 +3495,14 @@
         <seg>Использовать значение из тегов</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Карыстаць значэньне з тэгаў</seg>
+        <seg>Карыстаць значэньне з тэґаў</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Использовать мультимедиа-клавиши?</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T155128Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T155128Z">
         <seg>Выкарыстоўваць мультымэдыя-клявішы?</seg>
       </tuv>
     </tu>
@@ -2946,6 +3512,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Выкарыстоўваць згладжваньне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Использовать системные настройки</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20111019T205242Z">
+        <seg>Ужываць сыстэмныя налады</seg>
       </tuv>
     </tu>
     <tu>
@@ -2960,7 +3534,7 @@
       <tuv lang="RU">
         <seg>История изменений</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T163218Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T163218Z">
         <seg>Гісторыя зьменаў</seg>
       </tuv>
     </tu>
@@ -2990,6 +3564,22 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Как у исходного файла</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211432Z">
+        <seg>Як у зыходнага файла</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Какие дополнительные языки Вы хотите установить?</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195128Z">
+        <seg>Якія дадатковыя мовы Вы жадаеце ўсталяваць?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Каналы</seg>
       </tuv>
       <tuv lang="be">
@@ -2998,10 +3588,18 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Каналы:</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211541Z">
+        <seg>Каналы:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Каталог интернет радиостанций</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185740Z" changeid="eratyk">
-        <seg>Каталёг сеціўных радыёстанцый</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T060539Z">
+        <seg>Каталёґ сеціўных радыёстанцыяў</seg>
       </tuv>
     </tu>
     <tu>
@@ -3009,15 +3607,15 @@
         <seg>Каталог радиостанций</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Каталёг радыёстанцый</seg>
+        <seg>Каталёґ радыёстанцыяў</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Каталёг интернет радиостанций</seg>
+        <seg>Каталёґ интернет радиостанций</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Каталёг сеціўных радыёстанцый</seg>
+        <seg>Каталёґ сеціўных радыёстанцыяў</seg>
       </tuv>
     </tu>
     <tu>
@@ -3025,7 +3623,7 @@
         <seg>Категория</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Катэгорыя</seg>
+        <seg>Катэґорыя</seg>
       </tuv>
     </tu>
     <tu>
@@ -3038,9 +3636,17 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Качество:</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211609Z">
+        <seg>Якасьць:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Клик средней кнопкой:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174004Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110126T174004Z">
         <seg>Сярэдняя клявіша:</seg>
       </tuv>
     </tu>
@@ -3070,6 +3676,14 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Кол-во потоков:</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190942Z">
+        <seg>К-сьць плыняў:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Кол-во проигрываний</seg>
       </tuv>
       <tuv lang="be">
@@ -3088,7 +3702,7 @@
       <tuv lang="RU">
         <seg>Кол-во файлов, после проигрывания которых выполнится действие</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185811Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T185811Z">
         <seg>Колькасьць файлаў, пасьля прайграваньня якіх выконваецца дзеяньне</seg>
       </tuv>
     </tu>
@@ -3104,7 +3718,7 @@
       <tuv lang="RU">
         <seg>Комментарий</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T162200Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T162200Z">
         <seg>Камэнтар</seg>
       </tuv>
     </tu>
@@ -3112,7 +3726,7 @@
       <tuv lang="RU">
         <seg>Композитор:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T173631Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110126T173631Z">
         <seg>Кампазытар:</seg>
       </tuv>
     </tu>
@@ -3122,6 +3736,30 @@
       </tuv>
       <tuv lang="be">
         <seg>Кампаненты</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Компьютер будет выключен через %s</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120516T063259Z">
+        <seg>кампутар будзе выключаны праз %s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Конвертер</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190922Z">
+        <seg>Канвэртар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Конвертировать в другой формат</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T185651Z">
+        <seg>Сканвэртаваць у іншы фармат</seg>
       </tuv>
     </tu>
     <tu>
@@ -3136,8 +3774,8 @@
       <tuv lang="RU">
         <seg>Копирование...</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Капіяваньне...</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061708Z">
+        <seg>Капіяваньне…</seg>
       </tuv>
     </tu>
     <tu>
@@ -3150,26 +3788,26 @@
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Копировать в &quot;%s&quot;...</seg>
+        <seg>Копировать в "%s"...</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Скапіяваць у &quot;%s&quot;...</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T060804Z">
+        <seg>Скапіяваць у «%s»…</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Копировать в...</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Скапіяваць у...</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061645Z">
+        <seg>Скапіяваць у…</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Копировать выбранные файлы в буфер обмена</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T163429Z" changeid="eratyk">
-        <seg>Скапіяваць абраныя файлы ў буфэр</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221348Z">
+        <seg>Скапіяваць абраныя файлы ў кішэню</seg>
       </tuv>
     </tu>
     <tu>
@@ -3184,8 +3822,8 @@
       <tuv lang="RU">
         <seg>Копировать информацию о файле в буфер обмена</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T163307Z" changeid="eratyk">
-        <seg>Скапіяваць інфармацыю аб файле ў буфэр</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221343Z">
+        <seg>Скапіяваць інфармацыю аб файле ў кішэню</seg>
       </tuv>
     </tu>
     <tu>
@@ -3200,8 +3838,8 @@
       <tuv lang="RU">
         <seg>Копировать проигрываемый файл в буфер обмена</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190543Z" changeid="eratyk">
-        <seg>Скапіяваць файл, які граецца, у буфэр</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221606Z">
+        <seg>Скапіяваць файл, які прайграецца, у кішэню</seg>
       </tuv>
     </tu>
     <tu>
@@ -3216,8 +3854,8 @@
       <tuv lang="RU">
         <seg>Копировать проигрываемый файл в последнюю выбранную папку</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T170322Z" changeid="eratyk">
-        <seg>Скапіяваць прайграваны файл у апошні абраны каталёг</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110117T170322Z">
+        <seg>Скапіяваць прайграваны файл у апошні абраны каталёґ</seg>
       </tuv>
     </tu>
     <tu>
@@ -3225,15 +3863,15 @@
         <seg>Копировать проигрываемый файл в посьледнюю выбранную папку</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Скапіяваць прайграваны файл у апошні абраны каталёг</seg>
+        <seg>Скапіяваць прайграваны файл у апошні абраны каталёґ</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Копировать файл в буфер обмена</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T162302Z" changeid="eratyk">
-        <seg>Скапіяваць файл у буфэр</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221337Z">
+        <seg>Скапіяваць файл у кішэню</seg>
       </tuv>
     </tu>
     <tu>
@@ -3264,8 +3902,8 @@
       <tuv lang="RU">
         <seg>Лицензионное соглашение</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Ліцэнзійная дамова</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T200705Z">
+        <seg>Ліцэнзійнае пагадненьне</seg>
       </tuv>
     </tu>
     <tu>
@@ -3280,8 +3918,24 @@
       <tuv lang="RU">
         <seg>Локальные</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T171503Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T171503Z">
         <seg>Лякальныя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Лучше качество</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211507Z">
+        <seg>Лепш якасьць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Лучше сжатие</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211512Z">
+        <seg>Лепш сьціск</seg>
       </tuv>
     </tu>
     <tu>
@@ -3289,7 +3943,7 @@
         <seg>Любимые альбомы</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Улюбёныя альбомы</seg>
+        <seg>Упадабаныя альбомы</seg>
       </tuv>
     </tu>
     <tu>
@@ -3297,7 +3951,7 @@
         <seg>Любимые жанры</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Улюбёныя жанры</seg>
+        <seg>Упадабаныя жанры</seg>
       </tuv>
     </tu>
     <tu>
@@ -3305,7 +3959,15 @@
         <seg>Любимые исполнители</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Улюбёныя выканаўцы</seg>
+        <seg>Упадабаныя выканаўцы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Мастер установки $NAME</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T200420Z">
+        <seg>Майстар усталёўваньня $NAME</seg>
       </tuv>
     </tu>
     <tu>
@@ -3336,15 +3998,23 @@
       <tuv lang="RU">
         <seg>Меню</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190507Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T190507Z">
         <seg>Мэню</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Меню "Разное"</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190101Z">
+        <seg>Мэню «Рознае»</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Меню визуализации</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T170841Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T170841Z">
         <seg>Мэню візуалізацыі</seg>
       </tuv>
     </tu>
@@ -3352,15 +4022,15 @@
       <tuv lang="RU">
         <seg>Меню добавления файлов/папок</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T163224Z" changeid="eratyk">
-        <seg>Мэню даданьня файлаў/каталёгаў</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110117T163224Z">
+        <seg>Мэню даданьня файлаў/каталёґаў</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Меню сортировки файлов</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T163301Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T163301Z">
         <seg>Мэню сартаваньня файлаў</seg>
       </tuv>
     </tu>
@@ -3368,7 +4038,7 @@
       <tuv lang="RU">
         <seg>Меню удаления файлов</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T163228Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T163228Z">
         <seg>Мэню выдаленьня файлаў</seg>
       </tuv>
     </tu>
@@ -3392,15 +4062,15 @@
       <tuv lang="RU">
         <seg>Метки...</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Цэтлікі...</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061656Z">
+        <seg>Цэтлікі…</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Метод вывода:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T173237Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T173237Z">
         <seg>Мэтад вываду:</seg>
       </tuv>
     </tu>
@@ -3433,7 +4103,7 @@
         <seg>Мэню добавления файлов/папок</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Мэню даданьня файлаў/каталёгаў</seg>
+        <seg>Мэню даданьня файлаў/каталёґаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -3456,8 +4126,32 @@
       <tuv lang="RU">
         <seg>На передний план</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T172031Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T172031Z">
         <seg>На пярэдні плян</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Нажмите "Завершить", чтобы выйти из программы деинсталяци</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120516T064958Z">
+        <seg>Націсьніце «Скончыць», каб выйсьці з праґрамы высталёўваньня.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Нажмите "Завершить", чтобы выйти из программы деинсталяции.</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T200412Z">
+        <seg>Націсьніце «Скончыць», каб выйсьці з праґрамы высталёўваньня.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Нажмите "Завершить", чтобы выйти из программы установки.</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195837Z">
+        <seg>Націсьніце «Скончыць», каб выйсьці з праґрамы ўсталёўваньня.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3466,6 +4160,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Націсьніце ESC, каб скасаваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Назад</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T184304Z">
+        <seg>Назад</seg>
       </tuv>
     </tu>
     <tu>
@@ -3520,15 +4222,15 @@
       <tuv lang="RU">
         <seg>Настройка DSP-плагина</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185522Z" changeid="eratyk">
-        <seg>Налада DSP-плягіна</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T215819Z">
+        <seg>Налада DSP-плаґіна</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Настройка автовыключения компьютера</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185952Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T185952Z">
         <seg>Налада аўтавыключэньня кампутара</seg>
       </tuv>
     </tu>
@@ -3536,32 +4238,64 @@
       <tuv lang="RU">
         <seg>Настройка горячих клавиш</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Налада гарачых клявіш</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T060017Z">
+        <seg>Налады гарачых клявішаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Настройка деинсталятора...</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T190141Z">
+        <seg>Наладжваньне высталёўніка…</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Настройка интерфейса</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Налада інтэрфэйса</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T093747Z">
+        <seg>Налада інтэрфэйсу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Настройка параметров установки $NAME</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T194725Z">
+        <seg>Наладжваньне парамэтраў усталёўваньня $NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Настройка параметров...</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T200552Z">
+        <seg>Наладжваньне парамэтраў…</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Настройка плагинов</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185531Z" changeid="eratyk">
-        <seg>Налада плягінаў</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T215829Z">
+        <seg>Налада плаґінаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Настройка планировщика</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190048Z">
+        <seg>Налады плянавальніка</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Настройка языка интерфейса</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Налада мовы інтэрфэйса</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T093739Z">
+        <seg>Налада мовы інтэрфэйсу</seg>
       </tuv>
     </tu>
     <tu>
@@ -3576,7 +4310,7 @@
       <tuv lang="RU">
         <seg>Настройки воспроизведения</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190256Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T190256Z">
         <seg>Налады прайграваньня</seg>
       </tuv>
     </tu>
@@ -3600,8 +4334,8 @@
       <tuv lang="RU">
         <seg>Настройки интерфейса</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Налады інтэрфэйса</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T093923Z">
+        <seg>Налады інтэрфэйсу</seg>
       </tuv>
     </tu>
     <tu>
@@ -3648,7 +4382,7 @@
       <tuv lang="RU">
         <seg>Начать воспроизведение</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T183925Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T183925Z">
         <seg>Пачаць прайграваньне</seg>
       </tuv>
     </tu>
@@ -3672,16 +4406,24 @@
       <tuv lang="RU">
         <seg>Не уведомлять об этой версии</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Не апавяшчаць пра гэту вэрсію</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T211540Z">
+        <seg>Не апавяшчаць пра гэтую вэрсію</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Не удается создать файл "%s".\nУбедитесь, что файла с таким именем нет в папке назначения, и диск доступен для записи.</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T184836Z">
+        <seg>Не атрымліваецца стварыць файл «%s».\nПераканайцеся, што файла з такім імем няма ў каталёґу прызначэньня і дыск даступны для запісу.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Не удается удалить один из плагинов, возможно, в данный момент он используется приложением:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185518Z" changeid="eratyk">
-        <seg>Не атрымоўваецца выдаліць адзін з плягінаў, магчыма, у гэты момант ён выкарыстоўваецца праграмай:</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T215814Z">
+        <seg>Не атрымліваецца выдаліць адзін з плаґінаў, магчыма, у гэты момант ён выкарыстоўваецца праґрамай:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3694,18 +4436,42 @@
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Не удалось сохранить изменения в файл &quot;%s&quot;, возможно, он занят другим приложением.</seg>
+        <seg>Не удалось скопировать файл "%s"</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T155134Z" changeid="eratyk">
-        <seg>Не атрымалася захаваць зьмены ў файл &quot;%s&quot;, магчыма, ён заняты іншай праграмай.</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T191230Z">
+        <seg>Не атрымалася скапіяваць файл «%s»</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Не удалось сохранить изьменения в файл &quot;%s&quot;, возможно, он занят другим приложением.</seg>
+        <seg>Не удалось создать путь "%S"</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T194036Z">
+        <seg>Не атрымалася стварыць шлях «%s»</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Не удалось сохранить изменения в файл "%s", возможно, он занят другим приложением.</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T212053Z">
+        <seg>Не атрымалася захаваць зьмены ў файл «%s», магчыма, ён заняты іншай праґрамай.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Не удалось сохранить изьменения в файл "%s", возможно, он занят другим приложением.</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Не атрымалася захаваць зьмены ў файл &quot;%s&quot;, магчыма, ён заняты іншай праграмай.</seg>
+        <seg>Не атрымалася захаваць зьмены ў файл "%s", магчыма, ён заняты іншай праґрамай.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Неактивные плейлисты</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190140Z">
+        <seg>Неактыўныя плэйлісты</seg>
       </tuv>
     </tu>
     <tu>
@@ -3720,8 +4486,8 @@
       <tuv lang="RU">
         <seg>Некоторые операции еще не завершены! Настаиваете на их принудительном завершении?</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T155705Z" changeid="eratyk">
-        <seg>Некаторыя апэрацыі яшчэ не завершаныя! Настойваеце на іх прымусовым заканчэньні?</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T055532Z">
+        <seg>Некаторыя апэрацыі яшчэ ня скончаныя! Настойваеце на іх прымусовым заканчэньні?</seg>
       </tuv>
     </tu>
     <tu>
@@ -3768,7 +4534,7 @@
       <tuv lang="RU">
         <seg>Новая версия появилась на сайте, скачать?</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T160155Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T160155Z">
         <seg>На сайце зьявілася новая вэрсія, спампаваць?</seg>
       </tuv>
     </tu>
@@ -3792,8 +4558,8 @@
       <tuv lang="RU">
         <seg>Новая папка</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Новы каталёг</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20111019T204931Z">
+        <seg>Новы каталёґ</seg>
       </tuv>
     </tu>
     <tu>
@@ -3816,7 +4582,7 @@
       <tuv lang="RU">
         <seg>Новый шаблон</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T155445Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T155445Z">
         <seg>Новы шаблён</seg>
       </tuv>
     </tu>
@@ -3889,15 +4655,23 @@
         <seg>О программе</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Пра праграму</seg>
+        <seg>Пра праґраму</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Обзор</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195003Z">
+        <seg>Агляд</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Обзор...</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Агляд...</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061717Z">
+        <seg>Агляд…</seg>
       </tuv>
     </tu>
     <tu>
@@ -3912,8 +4686,16 @@
       <tuv lang="RU">
         <seg>Обложка альбома</seg>
       </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120516T063237Z">
+        <seg>Вокладка альбому</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Обложка альбому</seg>
+      </tuv>
       <tuv lang="be">
-        <seg>Вокладка альбома</seg>
+        <seg>Вокладка альбому</seg>
       </tuv>
     </tu>
     <tu>
@@ -3934,18 +4716,34 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Обновить существующую версию</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T194800Z">
+        <seg>Абнавіць існую вэрсію</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Обновить теги</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Абнавіць тэгі</seg>
+        <seg>Абнавіць тэґі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Обновление файлов...</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T190110Z">
+        <seg>Абнаўленьне файлаў…</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Обновление...</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Абнаўленьне...</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061634Z">
+        <seg>Абнаўленьне…</seg>
       </tuv>
     </tu>
     <tu>
@@ -3974,6 +4772,38 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Общий прогресс:</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T210802Z">
+        <seg>Агульны праґрэс:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Объединить все одноименные категории</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T055904Z">
+        <seg>Аб’яднаць усе аднаназоўныя катэґорыі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Объединить с одноименными категориями</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190019Z">
+        <seg>Аб’яднаць з аднаназоўнымі катэґорыямі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Обычная версия (рекомендуется)</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T194815Z">
+        <seg>Звычайная вэрсія (рэкамэндавана)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Обычная прокрутка</seg>
       </tuv>
       <tuv lang="be">
@@ -3992,8 +4822,16 @@
       <tuv lang="RU">
         <seg>Ограничитель амплитуды (не рекомендуется)</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174623Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110126T174623Z">
         <seg>Абмежавальнік амплітуды (не рэкамэндавана)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Один исходный - один результирующий|Все исходные - один результирующий</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120516T063504Z">
+        <seg>Адзін зыходны — адзін выніковы|Усе зыходныя — адзін выніковы</seg>
       </tuv>
     </tu>
     <tu>
@@ -4002,6 +4840,22 @@
       </tuv>
       <tuv lang="be">
         <seg>Адзінкавы пстрык:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Одна из настроек была изменена. Применить изменения?</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T185734Z">
+        <seg>Адна з наладаў была зьмененая. Ужыць зьмены?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ожидание</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T191231Z">
+        <seg>Чаканьне</seg>
       </tuv>
     </tu>
     <tu>
@@ -4024,7 +4878,7 @@
       <tuv lang="RU">
         <seg>Операция еще не завершена.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T155528Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T155528Z">
         <seg>Апэрацыя яшчэ не завершаная.</seg>
       </tuv>
     </tu>
@@ -4032,16 +4886,16 @@
       <tuv lang="RU">
         <seg>Операция еще не завершена. Прервать?</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T155647Z" changeid="eratyk">
-        <seg>Апэрацыя яшчэ не завершаная. Перапыніць?</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T055509Z">
+        <seg>Апэрацыя яшчэ ня скончаная. Перапыніць?</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Операция завершена!\nНовый размер базы данных: %s\nСэкономлено: %s.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T155627Z" changeid="eratyk">
-        <seg>Апэрацыя завершаная!\nНовы памер базы зьвестак: %s\nЗэканомлена: %s.</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221331Z">
+        <seg>Апэрацыя скончаная!\nНовы памер базы зьвестак: %s\nЗэканомлена: %s.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4065,7 +4919,7 @@
         <seg>Оригинал</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Арыгінал</seg>
+        <seg>Арыґінал</seg>
       </tuv>
     </tu>
     <tu>
@@ -4074,6 +4928,22 @@
       </tuv>
       <tuv lang="be">
         <seg>Асноўныя</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Осталось:</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T210812Z">
+        <seg>Засталося:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Останавливать воспроизведение при удалении проигрываемого файла из плейлиста</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221017Z">
+        <seg>Спыняць прайграваньне падчас выдаленьня прайграванага файла з плэйлісту</seg>
       </tuv>
     </tu>
     <tu>
@@ -4088,7 +4958,7 @@
       <tuv lang="RU">
         <seg>Остановить воспроизведение</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T170538Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T170538Z">
         <seg>Спыніць прайграваньне</seg>
       </tuv>
     </tu>
@@ -4096,7 +4966,7 @@
       <tuv lang="RU">
         <seg>Остановить воспроизведение после текущего файла</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T170553Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T170553Z">
         <seg>Спыніць прайграваньне пасьля дзейнага файла</seg>
       </tuv>
     </tu>
@@ -4104,7 +4974,7 @@
       <tuv lang="RU">
         <seg>Остановить воспроизведение, если проигрываемый файл удаляется из плейлиста</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T183850Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T183850Z">
         <seg>Спыніць прайграваньне, калі прайграваны файл выдаляецца з плэйлісту</seg>
       </tuv>
     </tu>
@@ -4166,18 +5036,18 @@
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Открывать закладки в новом плейлисте &quot;Bookmarks&quot;</seg>
+        <seg>Открывать закладки в новом плейлисте "Bookmarks"</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Адчыняць закладкі ў новым плэйлісьце &quot;Bookmarks&quot;</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190918Z">
+        <seg>Адчыняць закладкі ў новым плэйлісьце «Bookmarks»</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Открытие файлов из внешних приложений</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174050Z" changeid="eratyk">
-        <seg>Адчыненьне файлаў са зьнешніх праграм</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110126T174050Z">
+        <seg>Адчыненьне файлаў са зьнешніх праґрамаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -4192,15 +5062,15 @@
       <tuv lang="RU">
         <seg>Открыть в AIMP3</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Адчынiць у AIMP3</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211707Z">
+        <seg>Адчынiць праз AIMP3</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Открыть и воспроизвести файлы</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T164715Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T164715Z">
         <seg>Адчыніць і прайграць файлы</seg>
       </tuv>
     </tu>
@@ -4217,7 +5087,7 @@
         <seg>Открыть папку</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Адчыніць каталёг</seg>
+        <seg>Адчыніць каталёґ</seg>
       </tuv>
     </tu>
     <tu>
@@ -4262,6 +5132,14 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Отменено</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T191220Z">
+        <seg>Скасавана</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Отменить</seg>
       </tuv>
       <tuv lang="be">
@@ -4274,6 +5152,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Скасаваць усе фільтры</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Отметьте галочкой каналы, которые будут использоваться программой для вывода звука</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T220342Z">
+        <seg>Адзначце птушкай каналы, якія будуць выкарыстоўвацца праґрамай для вываду гуку</seg>
       </tuv>
     </tu>
     <tu>
@@ -4296,15 +5182,23 @@
       <tuv lang="RU">
         <seg>Отображать обложку альбома</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T171030Z" changeid="eratyk">
-        <seg>Адлюстроўваць вокладку альбома</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120516T063305Z">
+        <seg>Адлюстроўваць вокладку альбому</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Отображать обложку альбому</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110117T171030Z">
+        <seg>Адлюстроўваць вокладку альбому</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Отображать прогресс воспроизведения</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T173058Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T173058Z">
         <seg>Адлюстроўваць прагрэс прайграваньня</seg>
       </tuv>
     </tu>
@@ -4320,8 +5214,8 @@
       <tuv lang="RU">
         <seg>Отображать статус плеера в виде цвета полосы прогресса</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T173110Z" changeid="eratyk">
-        <seg>Адлюстроўваць стан плэера ў выглядзе колеру паласы прагрэсу</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T100309Z">
+        <seg>Адлюстроўваць стан прайгравальніка ў выглядзе колеру паласы прагрэсу</seg>
       </tuv>
     </tu>
     <tu>
@@ -4336,15 +5230,15 @@
       <tuv lang="RU">
         <seg>Отображать статус плеера на кнопке на панели задач</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Адлюстроўваць стан плэера на кнопцы паліцы задач</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T100259Z">
+        <seg>Адлюстроўваць стан прайгравальніка на кнопцы паліцы задач</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Отображать эквалайзер слева</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T164211Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T164211Z">
         <seg>Адлюстроўваць эквалайзэр зьлева</seg>
       </tuv>
     </tu>
@@ -4374,26 +5268,42 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Отправить в AIMP3</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T211743Z">
+        <seg>Даслаць у AIMP3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Отправить в аудио конвертер</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190114Z">
+        <seg>Даслаць у аўдыёканвэртар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Отправить в другой плейлист</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Адправіць у іншы плэйліст</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T211639Z">
+        <seg>Даслаць у іншы плэйліст</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Отправить в расширенный редактор тегов</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Адправіць у пашыраны рэдактар тэгаў</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T211647Z">
+        <seg>Даслаць у пашыраны рэдактар тэґаў</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Отправить файлы</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Адправіць файлы</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T211631Z">
+        <seg>Даслаць файлы</seg>
       </tuv>
     </tu>
     <tu>
@@ -4416,8 +5326,8 @@
       <tuv lang="RU">
         <seg>Отчет...</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Справаздача...</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061703Z">
+        <seg>Справаздача…</seg>
       </tuv>
     </tu>
     <tu>
@@ -4438,6 +5348,14 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Очистить</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T191216Z">
+        <seg>Ачысьціць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Очистить очередь</seg>
       </tuv>
       <tuv lang="be">
@@ -4454,6 +5372,30 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Ошибка</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T191227Z">
+        <seg>Памылка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ошибка настройки деинсталятора</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T194017Z">
+        <seg>Памылка наладжваньня высталёўніка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ошибка!\nУстановка отменена</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195921Z">
+        <seg>Памылка!\nУсталёўваньне скасаванае</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Панель задач (только для Windows 7)</seg>
       </tuv>
       <tuv lang="be">
@@ -4462,18 +5404,26 @@
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Папка &quot;%s&quot; не существует</seg>
+        <seg>Папка "%s" не существует</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Каталёг &quot;%s&quot; не існуе</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T212101Z">
+        <seg>Каталёґ «%s» не існуе</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Папка для сохранения:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174333Z" changeid="eratyk">
-        <seg>Каталёг для захаваньня:</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110126T174333Z">
+        <seg>Каталёґ для захаваньня:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Папка для установки</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T194744Z">
+        <seg>Каталёґ усталяваньня</seg>
       </tuv>
     </tu>
     <tu>
@@ -4481,14 +5431,14 @@
         <seg>Папку</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Каталёг</seg>
+        <seg>Каталёґ</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Параметры</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190337Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T190337Z">
         <seg>Налады</seg>
       </tuv>
     </tu>
@@ -4496,23 +5446,39 @@
       <tuv lang="RU">
         <seg>Параметры воспроизведения</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T173142Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T173142Z">
         <seg>Налады прайграваньня</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Параметры деинсталяции</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T200141Z">
+        <seg>Налады высталёўваньня</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Параметры захвата</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T184924Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T184924Z">
         <seg>Налады захопу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Параметры конвертирования</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T200152Z">
+        <seg>Налады канвэртаваньня</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Параметры копирования</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190711Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T190711Z">
         <seg>Налады прайграваньня</seg>
       </tuv>
     </tu>
@@ -4520,7 +5486,7 @@
       <tuv lang="RU">
         <seg>Параметры переименования</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190403Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T190403Z">
         <seg>Налады пераназываньня</seg>
       </tuv>
     </tu>
@@ -4528,7 +5494,7 @@
       <tuv lang="RU">
         <seg>Параметры подключения</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T184655Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T184655Z">
         <seg>Налады злучэньня</seg>
       </tuv>
     </tu>
@@ -4536,23 +5502,39 @@
       <tuv lang="RU">
         <seg>Параметры подключения к Интернет</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T162710Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T162710Z">
         <seg>Налады злучэньня зь сецівам</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Параметры сведения</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221054Z">
+        <seg>Налады злучэньня</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Параметры сохранения</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190455Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T190455Z">
         <seg>Налады захаваньня</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Параметры установки</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T194704Z">
+        <seg>Налады ўсталёўваньня</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Параметры:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T173247Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T173247Z">
         <seg>Налады:</seg>
       </tuv>
     </tu>
@@ -4632,16 +5614,24 @@
       <tuv lang="RU">
         <seg>Пауза</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Паўза</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221805Z">
+        <seg>Прыпыніць</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Первое слово с большой буквы</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T162730Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T162730Z">
         <seg>Першае слова зь вялікае літары</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Перед установкой $NAME ознакомьтесь с лицензионным соглашением.</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T200721Z">
+        <seg>Перад усталёўваньнем $NAME азнаёмцеся зь ліцэнзійным пагадненьнем.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4672,7 +5662,7 @@
       <tuv lang="RU">
         <seg>Переименовать по шаблону</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190717Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T190717Z">
         <seg>Пераназваць па шаблёне</seg>
       </tuv>
     </tu>
@@ -4686,9 +5676,17 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Переименовать файл:</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T210718Z">
+        <seg>Пераназваць файл:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Переименовывать файлы по шаблону</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190429Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T190429Z">
         <seg>Пераназываць файлы па шаблёне</seg>
       </tuv>
     </tu>
@@ -4698,6 +5696,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Пераназываць файлы па шаблёне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Перейти в режим гибернации</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T191040Z">
+        <seg>Перайсьці ў рэжым гібэрнацыі</seg>
       </tuv>
     </tu>
     <tu>
@@ -4712,15 +5718,15 @@
       <tuv lang="RU">
         <seg>Перейти в состояние, которое было при закрытии плеера</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Перайсьці ў стан, якi быў падчас зачыненьня плэера</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T100333Z">
+        <seg>Перайсьці ў стан, якi быў падчас зачыненьня прайгравальніка</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Перейти в спящий режим</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190012Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T190012Z">
         <seg>Усыпіць кампутар</seg>
       </tuv>
     </tu>
@@ -4730,6 +5736,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Усыпіць камп'ютар</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Перейти к папке...</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T191102Z">
+        <seg>Перайсьці да каталёґу…</seg>
       </tuv>
     </tu>
     <tu>
@@ -4760,7 +5774,7 @@
       <tuv lang="RU">
         <seg>Перейти на следующий плейлист</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T183938Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T183938Z">
         <seg>Перайсьці на наступны плэйліст</seg>
       </tuv>
     </tu>
@@ -4782,10 +5796,10 @@
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Переместить в &quot;%s&quot;...</seg>
+        <seg>Переместить в "%s"...</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Перамясьціць у &quot;%s&quot;...</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T060846Z">
+        <seg>Перамясьціць у «%s»…</seg>
       </tuv>
     </tu>
     <tu>
@@ -4806,18 +5820,26 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Перемещать в:</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T210727Z">
+        <seg>Перамяшчаць у:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Перемещать файлы в выбранную папку</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Перамяшчаць файлы ў абраны каталёг</seg>
+        <seg>Перамяшчаць файлы ў абраны каталёґ</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Перемещение...</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Перамяшчэньне...</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061713Z">
+        <seg>Перамяшчэньне…</seg>
       </tuv>
     </tu>
     <tu>
@@ -4826,6 +5848,22 @@
       </tuv>
       <tuv lang="be">
         <seg>Перанесьці файлы са старой вэрсіі базы зьвестак</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Переносная версия</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T194824Z">
+        <seg>Пераносная вэрсія</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Переносная версия не может быть установлена в $PROGRAMS.</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195102Z">
+        <seg>Пераносная вэрсія ня можа быць усталяваная ў $PROGRAMS.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4840,7 +5878,7 @@
       <tuv lang="RU">
         <seg>Переподключение через %s сек</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T161514Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T161514Z">
         <seg>Перазлучэньне праз %s сэк.</seg>
       </tuv>
     </tu>
@@ -4848,8 +5886,16 @@
       <tuv lang="RU">
         <seg>Пересканировать теги</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T164301Z" changeid="eratyk">
-        <seg>Перагледзець тэгі</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110117T164301Z">
+        <seg>Перагледзець тэґі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Перечитать данные из прообраза</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T185953Z">
+        <seg>Перачытаць зьвесткі з правобразу</seg>
       </tuv>
     </tu>
     <tu>
@@ -4857,7 +5903,7 @@
         <seg>Перечитать теги</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Перачытаць тэгі</seg>
+        <seg>Перачытаць тэґі</seg>
       </tuv>
     </tu>
     <tu>
@@ -4865,7 +5911,7 @@
         <seg>Перечитать теги у всех файлов</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Перачытаць тэгі ўсіх файлаў</seg>
+        <seg>Перачытаць тэґі ўсіх файлаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -4873,7 +5919,7 @@
         <seg>Писать теги в файл</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Запісваць тэгі ў файл</seg>
+        <seg>Запісваць тэґі ў файл</seg>
       </tuv>
     </tu>
     <tu>
@@ -4888,15 +5934,15 @@
       <tuv lang="RU">
         <seg>Плавная прокрутка вкладок плейлистов</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T184559Z" changeid="eratyk">
-        <seg>Плаўнае прагортваньне картак плэйлістаў</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T211959Z">
+        <seg>Плаўнае прагортваньне ўкладак плэйлістаў</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Плавное изменение громкости</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185936Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T185936Z">
         <seg>Плаўнае зьмяненьне гучнасьці</seg>
       </tuv>
     </tu>
@@ -4904,7 +5950,7 @@
       <tuv lang="RU">
         <seg>Плавное изменение прозрачности</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T184646Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T184646Z">
         <seg>Плаўнае зьмяненьне празрыстасьці</seg>
       </tuv>
     </tu>
@@ -4928,8 +5974,8 @@
       <tuv lang="RU">
         <seg>Плавное нарастание громкости в начале трека</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T184917Z" changeid="eratyk">
-        <seg>Плаўнае ўзрастаньне гучнасьці напачатку трэка</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110117T184917Z">
+        <seg>Плаўнае ўзрастаньне гучнасьці напачатку трэку</seg>
       </tuv>
     </tu>
     <tu>
@@ -4952,15 +5998,15 @@
       <tuv lang="RU">
         <seg>Плагины</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185501Z" changeid="eratyk">
-        <seg>Плягіны</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T215839Z">
+        <seg>Плаґіны</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Планировщик</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185753Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T185753Z">
         <seg>Плянавальнік</seg>
       </tuv>
     </tu>
@@ -4968,8 +6014,8 @@
       <tuv lang="RU">
         <seg>Плеер</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Плэер</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T100202Z">
+        <seg>Прайгравальнік</seg>
       </tuv>
     </tu>
     <tu>
@@ -5000,8 +6046,8 @@
       <tuv lang="RU">
         <seg>По левому краю|По правому краю|По центру</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T173850Z" changeid="eratyk">
-        <seg>Па левым боку|Па правым боку|Па цэнтары</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T094919Z">
+        <seg>Па левым боку|Па правым боку|Па цэнтры</seg>
       </tuv>
     </tu>
     <tu>
@@ -5032,8 +6078,8 @@
       <tuv lang="RU">
         <seg>По умолчанию</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T173915Z" changeid="eratyk">
-        <seg>Перадвызначэньні</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T212530Z">
+        <seg>Стандарты</seg>
       </tuv>
     </tu>
     <tu>
@@ -5078,18 +6124,26 @@
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Повтор отрезка &quot;А-Б&quot;</seg>
+        <seg>Повтор отрезка "А-Б"</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Паўтор адрэзка &quot;А-Б&quot;</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T212246Z">
+        <seg>Паўтор адрэзку «А-Б»</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Повтор отрезка &quot;А-Б&quot; [выкл]|Задана точка &quot;А&quot;|Повтор отрезка &quot;А-Б&quot; [вкл]|</seg>
+        <seg>Повтор отрезка "А-Б" [выкл]|Задана точка "А"|Повтор отрезка "А-Б" [вкл]|</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Паўтор адрэзка &quot;А-Б&quot; [выкл]|Вызначана кропка &quot;А&quot;|Паўтор адрэзка &quot;А-Б&quot; [укл]|</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T212229Z">
+        <seg>Паўтор адрэзку «А-Б» [выкл]|Зададзены пункт «А»|Паўтор адрэзку «А-Б» [укл]|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Повтор файла</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T185713Z">
+        <seg>Паўтор файла</seg>
       </tuv>
     </tu>
     <tu>
@@ -5118,6 +6172,14 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Подготовка...</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195757Z">
+        <seg>Рыхтаваньне…</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Поддержка:</seg>
       </tuv>
       <tuv lang="be">
@@ -5128,8 +6190,16 @@
       <tuv lang="RU">
         <seg>Подключение...</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Злучэньне...</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061629Z">
+        <seg>Злучэньне…</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Пожалуйста, подождите, пока $NAME установится на Ваш компьютер</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195748Z">
+        <seg>Калі ласка, пачакайце, пакуль $NAME усталюецца на Ваш кампутар</seg>
       </tuv>
     </tu>
     <tu>
@@ -5144,7 +6214,7 @@
       <tuv lang="RU">
         <seg>Позиция (сек)</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T161519Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T161519Z">
         <seg>Пазыцыя (сэк)</seg>
       </tuv>
     </tu>
@@ -5162,6 +6232,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Пошук у сеціве</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Поиск и закрытие активных приложений программы...</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T190938Z">
+        <seg>Пошук і зачыненьне актыўных кампанэнтаў праґрамы…</seg>
       </tuv>
     </tu>
     <tu>
@@ -5192,8 +6270,16 @@
       <tuv lang="RU">
         <seg>Поиск...</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Пошук...</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061722Z">
+        <seg>Пошук…</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Показать / Спрятать "%s"</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T185901Z">
+        <seg>Паказаць / Схаваць «%s»</seg>
       </tuv>
     </tu>
     <tu>
@@ -5272,7 +6358,7 @@
       <tuv lang="RU">
         <seg>Показывать вторую строку с информацией</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T162603Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T162603Z">
         <seg>Паказваць другі радок зь інфармацыяй</seg>
       </tuv>
     </tu>
@@ -5328,7 +6414,7 @@
       <tuv lang="RU">
         <seg>Показывать колонку с переключателями</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T162554Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T162554Z">
         <seg>Паказваць калёнку зь перамыкачамі</seg>
       </tuv>
     </tu>
@@ -5336,7 +6422,7 @@
       <tuv lang="RU">
         <seg>Показывать логотип при загрузке</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185119Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T185119Z">
         <seg>Паказваць лягатып падчас ладаваньня</seg>
       </tuv>
     </tu>
@@ -5344,7 +6430,7 @@
       <tuv lang="RU">
         <seg>Показывать оценки</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T162634Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T162634Z">
         <seg>Паказваць ацэнкі</seg>
       </tuv>
     </tu>
@@ -5352,16 +6438,16 @@
       <tuv lang="RU">
         <seg>Показывать при полноэкранных приложениях</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T171100Z" changeid="eratyk">
-        <seg>Паказваць у поўнаэкранных праграмах</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110117T171100Z">
+        <seg>Паказваць у поўнаэкранных праґрамах</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Показывать статус плеера в трей-иконке</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T171823Z" changeid="eratyk">
-        <seg>Паказваць стан плэера ў значку латка</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T100250Z">
+        <seg>Паказваць стан прайгравальніка ў значку латка</seg>
       </tuv>
     </tu>
     <tu>
@@ -5392,7 +6478,7 @@
       <tuv lang="RU">
         <seg>Получить обложку</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T160129Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T160129Z">
         <seg>Атрымаць вокладку</seg>
       </tuv>
     </tu>
@@ -5406,6 +6492,14 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Попиксельная полупрозрачность окон</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20111019T205152Z">
+        <seg>Папіксэльная паўпразрыстасьць вокнаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Порт:</seg>
       </tuv>
       <tuv lang="be">
@@ -5414,9 +6508,17 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Посетить сайт проекта</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T200115Z">
+        <seg>Наведаць сайт праекту</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Последняя версия:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T154514Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T154514Z">
         <seg>Апошняя вэрсія:</seg>
       </tuv>
     </tu>
@@ -5424,7 +6526,7 @@
       <tuv lang="RU">
         <seg>Поставить после текущего</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T163530Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T163530Z">
         <seg>Паставіць пасьля дзейнага</seg>
       </tuv>
     </tu>
@@ -5448,7 +6550,7 @@
       <tuv lang="RU">
         <seg>Появление:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T161910Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T161910Z">
         <seg>Зьяўленьне:</seg>
       </tuv>
     </tu>
@@ -5464,7 +6566,7 @@
       <tuv lang="RU">
         <seg>Преднастройки эквалайзера</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T184507Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T184507Z">
         <seg>Перадвызначэньні эквалайзэра</seg>
       </tuv>
     </tu>
@@ -5518,6 +6620,22 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Преобразование в MP3</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211031Z">
+        <seg>Пераўтварэньне ў MP3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Преобразование в другие форматы</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120516T063546Z">
+        <seg>Пераўтварэньне ў іншыя фарматы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Преобразование не-юникод строк в соответствии с</seg>
       </tuv>
       <tuv lang="be">
@@ -5536,7 +6654,7 @@
       <tuv lang="RU">
         <seg>Прервать?</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T155517Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T155517Z">
         <seg>Перарваць?</seg>
       </tuv>
     </tu>
@@ -5544,7 +6662,7 @@
       <tuv lang="RU">
         <seg>При добавлении файлов сразу начать их воспроизведение</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T183959Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T183959Z">
         <seg>Пасьля даданьня файлаў адразу пачаць іх прайграваньне</seg>
       </tuv>
     </tu>
@@ -5560,15 +6678,15 @@
       <tuv lang="RU">
         <seg>При запуске программы</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T173345Z" changeid="eratyk">
-        <seg>Падчас запуску праграмы</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110117T173345Z">
+        <seg>Падчас запуску праґрамы</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>При окончании воспроизведения плейлиста</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T173332Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T173332Z">
         <seg>Падчас сканчэньня прайграваньня плэйлісту</seg>
       </tuv>
     </tu>
@@ -5584,7 +6702,7 @@
       <tuv lang="RU">
         <seg>При открытии файлов сразу начать их воспроизведение</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T183946Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T183946Z">
         <seg>Пасьля адчыненьня файлаў адразу пачаць іх прайграваньне</seg>
       </tuv>
     </tu>
@@ -5600,7 +6718,7 @@
       <tuv lang="RU">
         <seg>При открытии файлов:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174216Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110126T174216Z">
         <seg>Адчыненьне файлаў:</seg>
       </tuv>
     </tu>
@@ -5624,7 +6742,7 @@
       <tuv lang="RU">
         <seg>При старте воспроизведения показывать информацию о текущем файле</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T173837Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110126T173837Z">
         <seg>Падчас пачатку прайграваньня паказваць інфармацыю аб дзейным файле</seg>
       </tuv>
     </tu>
@@ -5638,26 +6756,26 @@
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Привести к виду &quot;X&quot;</seg>
+        <seg>Привести к виду "X"</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Прывесьці да выгляду &quot;X&quot;</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="RU">
-        <seg>Привести к виду &quot;XX&quot;</seg>
-      </tuv>
-      <tuv lang="be">
-        <seg>Прывесьці да выгляду &quot;XX&quot;</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T191116Z">
+        <seg>Прывесьці да выгляду «X»</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Привести к виду &quot;XX/XX&quot;</seg>
+        <seg>Привести к виду "XX"</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Прывесці да выгляду &quot;XX/XX&quot;</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T191123Z">
+        <seg>Прывесьці да выгляду «XX»</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Привести к виду "XX/XX"</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T191140Z">
+        <seg>Прывесці да выгляду «XX/XX»</seg>
       </tuv>
     </tu>
     <tu>
@@ -5680,8 +6798,8 @@
       <tuv lang="RU">
         <seg>Примагничивать окна к границам рабочей области и к другим окнам плеера</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T184621Z" changeid="eratyk">
-        <seg>Прымагнічваць вокны да межаў працоўнай вобласьці ды іншых вокнаў плэера</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T100341Z">
+        <seg>Прымагнічваць вокны да межаў працоўнай вобласьці ды іншых вокнаў прайгравальніка</seg>
       </tuv>
     </tu>
     <tu>
@@ -5696,7 +6814,7 @@
       <tuv lang="RU">
         <seg>Применить изменения к файлам?</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T155140Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T155140Z">
         <seg>Ужыць зьмены да файлаў?</seg>
       </tuv>
     </tu>
@@ -5706,6 +6824,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Ужыць зьмены да файлаў?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Применить к</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120516T063243Z">
+        <seg>Ужыць да</seg>
       </tuv>
     </tu>
     <tu>
@@ -5726,10 +6852,18 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Принимаю условия лицензионного соглашения</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T200730Z">
+        <seg>Прымаю ўмовы ліцэнзійнага пагадненьня</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Принять по умолчанию</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Прызначыць перадвызначэньні</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T213857Z">
+        <seg>Прызначыць стандарты</seg>
       </tuv>
     </tu>
     <tu>
@@ -5752,7 +6886,7 @@
       <tuv lang="RU">
         <seg>Приостановить воспроизведение</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190045Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T190045Z">
         <seg>Прыпыніць прайграваньне</seg>
       </tuv>
     </tu>
@@ -5768,15 +6902,23 @@
       <tuv lang="RU">
         <seg>Приостановить работу горячих клавиш</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T164316Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T164316Z">
         <seg>Прыпыніць працу гарачых клявішаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Приостановлено</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T220010Z">
+        <seg>Прыпынена</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Пробуждать из спячки</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185802Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T185802Z">
         <seg>Абуджаць ад сну</seg>
       </tuv>
     </tu>
@@ -5802,6 +6944,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Праверка абнаўленьняў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Программа $NAME успешно удалена.</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120516T065017Z">
+        <seg>Праґрама $NAME пасьпяхова высталяваная.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5870,6 +7020,30 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Произошла ошибка в ходе установки, пожалуйста, свяжитесь с технической поддержкой, если самостоятельно не можете устранить ее причину.</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T200059Z">
+        <seg>Адбылася памылка падчас усталёўваньня; калі ласка, зьвяжыцеся з тэхнічнай падтрымкай, калі самастойна ня можаце вырашыць праблему.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Прокрутить вкладки вперед</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T093645Z">
+        <seg>Прагарнуць укладкі наперад</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Прокрутить вкладки назад</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T093653Z">
+        <seg>Прагарнуць укладкі назад</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Прокрутка записей в плейлисте колесиком мыши</seg>
       </tuv>
       <tuv lang="be">
@@ -5878,18 +7052,42 @@
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Прокрутка с зажатым &quot;%s&quot;</seg>
+        <seg>Прокрутка с зажатым "%s"</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Прагортваньне з заціснутым &quot;%s&quot;</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T212355Z">
+        <seg>Прагортваньне з заціснутым «%s»</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Прокси</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221047Z">
+        <seg>Пасярэднік</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Промоутер:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T163037Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T163037Z">
         <seg>Заснавальнік:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Прообраз - плейлист или папка, являющийся источником данных для плейлиста. Чтобы синхронизироваться с прообразом, нажмите кнопку "Перечитать данные из прообраза".\n\n[!] Синхронизация выполняется только в одну сторону: Прообраз-&gt;Плейлист.</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190538Z">
+        <seg>Правобраз — плэйліст ці каталёґ, які ёсьць крыніцай зьвестак для плэйлісту. Каб сынхранізавацца з правобразам, націсьніце кнопку «Перачытаць зьвесткі з правобразу».\n\n[!] Сынхранізацыя выконваецца толькі ў адзін бок: Правобраз → Плэйліст.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Прообраз:</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190318Z">
+        <seg>Правобраз:</seg>
       </tuv>
     </tu>
     <tu>
@@ -5926,10 +7124,26 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Прошло:</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T210807Z">
+        <seg>Прайшло:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Прямое подключение</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20111019T205231Z">
+        <seg>Наўпростае злучэньне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Путь к файлу / папке</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174546Z" changeid="eratyk">
-        <seg>Шлях да файла ці каталёга</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110126T174546Z">
+        <seg>Шлях да файла ці каталёґу</seg>
       </tuv>
     </tu>
     <tu>
@@ -5968,7 +7182,7 @@
       <tuv lang="RU">
         <seg>Разбивать по размеру</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185111Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T185111Z">
         <seg>Разьбіваць па памеры</seg>
       </tuv>
     </tu>
@@ -5998,9 +7212,17 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Развернуть / Восстановить</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T185844Z">
+        <seg>Разгарнуць / Аднавіць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Развернуть все</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T164639Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T164639Z">
         <seg>Разгарнуць усе</seg>
       </tuv>
     </tu>
@@ -6008,7 +7230,7 @@
       <tuv lang="RU">
         <seg>Размер</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T162701Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T162701Z">
         <seg>Памер</seg>
       </tuv>
     </tu>
@@ -6016,31 +7238,31 @@
       <tuv lang="RU">
         <seg>Размер буфера в полноэкранном режиме:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185643Z" changeid="eratyk">
-        <seg>Памер буфэру ў поўнаэкранным рэжыме:</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221422Z">
+        <seg>Памер кішэні ў поўнаэкранным рэжыме:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Размер буфера:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T184743Z" changeid="eratyk">
-        <seg>Памер буфэру:</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221415Z">
+        <seg>Памер кішэні:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Размер кэша:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T173309Z" changeid="eratyk">
-        <seg>Памер кэша:</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211851Z">
+        <seg>Памер кэшу:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Размер файла</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190706Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T190706Z">
         <seg>Памер файла</seg>
       </tuv>
     </tu>
@@ -6048,7 +7270,7 @@
       <tuv lang="RU">
         <seg>Размер файлов в плейлисте</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T170354Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T170354Z">
         <seg>Памер файлаў у плэйлісьце</seg>
       </tuv>
     </tu>
@@ -6056,7 +7278,7 @@
       <tuv lang="RU">
         <seg>Размер:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T155606Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T155606Z">
         <seg>Памер:</seg>
       </tuv>
     </tu>
@@ -6070,25 +7292,25 @@
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Разрешить &quot;затухание&quot; элементов управления</seg>
+        <seg>Разрешить "затухание" элементов управления</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T184525Z" changeid="eratyk">
-        <seg>Дазволіць &quot;затуханьне&quot; элемэнтаў кіраваньня</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T212341Z">
+        <seg>Дазволіць «затуханьне» элемэнтаў кіраваньня</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Разрешить &quot;затухание&quot; элемэнтов управления</seg>
+        <seg>Разрешить "затухание" элемэнтов управления</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Дазволіць &quot;затуханьне&quot; элемэнтаў кіраваньня</seg>
+        <seg>Дазволіць "затуханьне" элемэнтаў кіраваньня</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Разрешить автоматическую подстройку эквалайзера под песню</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T183840Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T183840Z">
         <seg>Дазволіць аўтаматычнае падладжваньне эквалайзэра пад песьню</seg>
       </tuv>
     </tu>
@@ -6112,16 +7334,24 @@
       <tuv lang="RU">
         <seg>Разрешить анимацию окна плеера в режиме панели инструментов рабочего стола</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T162900Z" changeid="eratyk">
-        <seg>Дазволіць анімацыю вакна плэера ў рэжыме панэлі інструмэнтаў стальніцы</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T100351Z">
+        <seg>Дазволіць анімацыю вакна прайгравальніка ў рэжыме панэлі інструмэнтаў стальніцы</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Разрешить анимацию окна эквалайзера</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T184458Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T184458Z">
         <seg>Дазволіць анімацыю вакна эквалайзэра</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Разрешить применение эффекта размытия к фону под окном</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20111019T205217Z">
+        <seg>Дазволіць ужываньне эфэкту размыцьця да фону пад вакном</seg>
       </tuv>
     </tu>
     <tu>
@@ -6130,6 +7360,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Дазволіць прагортваньне інфармацыі аб дзейным файле</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Разрешить расширенную обработку каналов</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211926Z">
+        <seg>Дазволіць пашыранае апрацаваньне каналаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -6144,7 +7382,7 @@
       <tuv lang="RU">
         <seg>Разрешить сведение каналов</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T173147Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T173147Z">
         <seg>Дазволіць зьвядзеньне каналаў</seg>
       </tuv>
     </tu>
@@ -6222,9 +7460,25 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Раскручивать аудио файлы согласно файлу разметки при добавлении в плейлист</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190734Z">
+        <seg>Прасоўваць аўдыёфайлы згодна з файлам разьметкі падчас дадаваньня ў плэйліст</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Раскручивать аудио файлы согласно файлу разметки при добавлении в список</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T191022Z">
+        <seg>Прасоўваць аўдыёфайлы згодна з файлам разьметкі падчас дадаваньня ў сьпіс</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Раскрывать файлы по файлу разметки (CUE) при добавлении в плейлист</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185407Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T185407Z">
         <seg>Расчыняць файлы па файле разьметкі (CUE) падчас даданьня ў плэйліст</seg>
       </tuv>
     </tu>
@@ -6246,6 +7500,14 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Расположение:</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190313Z">
+        <seg>Разьмяшчэньне:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Расширенный поиск</seg>
       </tuv>
       <tuv lang="be">
@@ -6256,7 +7518,7 @@
       <tuv lang="RU">
         <seg>Реверб</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190049Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T190049Z">
         <seg>Рэвэрб</seg>
       </tuv>
     </tu>
@@ -6264,7 +7526,7 @@
       <tuv lang="RU">
         <seg>Реверс каналов</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T162352Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T162352Z">
         <seg>Рэвэрс каналаў</seg>
       </tuv>
     </tu>
@@ -6273,7 +7535,7 @@
         <seg>Регистр</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Рэгістр</seg>
+        <seg>Рэґістр</seg>
       </tuv>
     </tu>
     <tu>
@@ -6289,15 +7551,23 @@
         <seg>Редактировать</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Рэдагаваць</seg>
+        <seg>Рэдаґаваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Редактировать теги</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T211451Z">
+        <seg>Рэдаґаваць тэґі</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Редактировать...</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Рэдагаваць...</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061652Z">
+        <seg>Рэдаґаваць…</seg>
       </tuv>
     </tu>
     <tu>
@@ -6321,7 +7591,15 @@
         <seg>Редактор тегов</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Рэдактар тэгаў</seg>
+        <seg>Рэдактар тэґаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Режим</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211618Z">
+        <seg>Рэжым</seg>
       </tuv>
     </tu>
     <tu>
@@ -6330,6 +7608,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Рэжым візуалізацыі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Режим кодирования</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120516T063433Z">
+        <seg>Рэжым кадаваньня</seg>
       </tuv>
     </tu>
     <tu>
@@ -6344,7 +7630,7 @@
       <tuv lang="RU">
         <seg>Режим одного плейлиста:\nНе удалось заменить плейлист, т.к. он заблокирован от изменений!</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T155411Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T155411Z">
         <seg>Рэжым аднаго плэйлісту:\nНе атрымалася замяніць плэйліст, бо ён заблякаваны ад зьменаў!</seg>
       </tuv>
     </tu>
@@ -6360,8 +7646,16 @@
       <tuv lang="RU">
         <seg>Режим плеера</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Рэжым плэера</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T100232Z">
+        <seg>Рэжым прайгравальніка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Режим:</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211524Z">
+        <seg>Рэжым:</seg>
       </tuv>
     </tu>
     <tu>
@@ -6384,7 +7678,7 @@
       <tuv lang="RU">
         <seg>Русский (RU)</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T154353Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T154353Z">
         <seg>Беларуская клясычная (be-BY)</seg>
       </tuv>
     </tu>
@@ -6401,7 +7695,7 @@
         <seg>С подпапками</seg>
       </tuv>
       <tuv lang="be">
-        <seg>З падкаталёгамі</seg>
+        <seg>З падкаталёґамі</seg>
       </tuv>
     </tu>
     <tu>
@@ -6424,7 +7718,7 @@
       <tuv lang="RU">
         <seg>Сбросить настройки эквалайзера</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T164618Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T164618Z">
         <seg>Скінуць налады эквалайзэра</seg>
       </tuv>
     </tu>
@@ -6440,7 +7734,7 @@
       <tuv lang="RU">
         <seg>Свернуть</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T170559Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T170559Z">
         <seg>Згарнуць</seg>
       </tuv>
     </tu>
@@ -6448,7 +7742,7 @@
       <tuv lang="RU">
         <seg>Свернуть / Развернуть</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T170525Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T170525Z">
         <seg>Згарнуць/Разгарнуць</seg>
       </tuv>
     </tu>
@@ -6456,7 +7750,7 @@
       <tuv lang="RU">
         <seg>Свернуть в трей</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T154914Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T154914Z">
         <seg>Згарнуць у латок</seg>
       </tuv>
     </tu>
@@ -6464,7 +7758,7 @@
       <tuv lang="RU">
         <seg>Свернуть все</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T164629Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T164629Z">
         <seg>Згарнуць усе</seg>
       </tuv>
     </tu>
@@ -6472,15 +7766,15 @@
       <tuv lang="RU">
         <seg>Свернуть программу в трей</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T173353Z" changeid="eratyk">
-        <seg>Згарнуць праграму ў латок</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110117T173353Z">
+        <seg>Згарнуць праґраму ў латок</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Сверху</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T171758Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T171758Z">
         <seg>Зьверху</seg>
       </tuv>
     </tu>
@@ -6488,7 +7782,7 @@
       <tuv lang="RU">
         <seg>Сводить предыдущий трек со следующим</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T184819Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T184819Z">
         <seg>Зводзіць папярэдні трэк з наступным</seg>
       </tuv>
     </tu>
@@ -6504,8 +7798,8 @@
       <tuv lang="RU">
         <seg>Сворачивать программу в трей при минимизации приложения</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T172027Z" changeid="eratyk">
-        <seg>Згортваць праграму ў латок падчас яе мінімізаваньня</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T094935Z">
+        <seg>Згортваць праґраму ў латок падчас яе мінімізацыі</seg>
       </tuv>
     </tu>
     <tu>
@@ -6544,8 +7838,16 @@
       <tuv lang="RU">
         <seg>Сервер:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T184757Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T184757Z">
         <seg>Сэрвэр:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Сжатие:</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211547Z">
+        <seg>Сьціск:</seg>
       </tuv>
     </tu>
     <tu>
@@ -6558,10 +7860,26 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Сильное сжатие</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211602Z">
+        <seg>Моцны сьціск</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Сканировать выбранные: без учета альбома</seg>
       </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120516T063424Z">
+        <seg>Праглядаць абраныя: без уліку альбому</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Сканировать выбранные: без учета альбому</seg>
+      </tuv>
       <tuv lang="be">
-        <seg>Праглядаць абраныя: без уліку альбома</seg>
+        <seg>Праглядаць абраныя: без уліку альбому</seg>
       </tuv>
     </tu>
     <tu>
@@ -6577,7 +7895,7 @@
         <seg>Сканировать выбранные: определять альбом по тегам</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Праглядаць абраныя: вызначаць альбом па тэгах</seg>
+        <seg>Праглядаць абраныя: вызначаць альбом па тэґах</seg>
       </tuv>
     </tu>
     <tu>
@@ -6624,7 +7942,7 @@
       <tuv lang="RU">
         <seg>Слева</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T171600Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T171600Z">
         <seg>Зьлева</seg>
       </tuv>
     </tu>
@@ -6632,7 +7950,7 @@
       <tuv lang="RU">
         <seg>Следующая визуализация</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T170605Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T170605Z">
         <seg>Наступная візуалізацыя</seg>
       </tuv>
     </tu>
@@ -6640,7 +7958,7 @@
       <tuv lang="RU">
         <seg>Следующий трек</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T164651Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T164651Z">
         <seg>Наступны трэк</seg>
       </tuv>
     </tu>
@@ -6648,7 +7966,7 @@
       <tuv lang="RU">
         <seg>Следующий файл</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T164707Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T164707Z">
         <seg>Наступны файл</seg>
       </tuv>
     </tu>
@@ -6672,8 +7990,40 @@
       <tuv lang="RU">
         <seg>Смена визуализаций</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185619Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T185619Z">
         <seg>Зьмена візуалізацыяў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Создание резервной копии...</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T185050Z">
+        <seg>Стварэньне рэзэрвовае копіі…</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Создание ярлыков...</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T190018Z">
+        <seg>Стварэньне пускальнікаў…</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Создать группу в меню "Пуск"</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195325Z">
+        <seg>Стварыць групу ў Пачатковым мэню</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Создать коррекционный файл</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211454Z">
+        <seg>Стварыць карэкцыйны файл</seg>
       </tuv>
     </tu>
     <tu>
@@ -6686,10 +8036,26 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Создать ярлык на рабочем столе</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195300Z">
+        <seg>Стварыць пускальнік на стальніцы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Сортировать по имени файла</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T184134Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T184134Z">
         <seg>Сартаваць па назьве файла</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Сортировать файлы по имени</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T220912Z">
+        <seg>Сартаваць файлы па назьве</seg>
       </tuv>
     </tu>
     <tu>
@@ -6720,7 +8086,7 @@
       <tuv lang="RU">
         <seg>Сортировка по исполнителю</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T173821Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110126T173821Z">
         <seg>Сартаваньне па выканаўцы</seg>
       </tuv>
     </tu>
@@ -6729,14 +8095,14 @@
         <seg>Сортировка по папкам</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Сартаваньне па каталёгах</seg>
+        <seg>Сартаваньне па каталёґах</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Сортировка по шаблону</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T161020Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T161020Z">
         <seg>Сартаваньне па шаблёне</seg>
       </tuv>
     </tu>
@@ -6752,8 +8118,8 @@
       <tuv lang="RU">
         <seg>Сортировка: инвертировать</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T170453Z" changeid="eratyk">
-        <seg>Сартаваньне: інвэртаваць</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T060031Z">
+        <seg>Сартаваньне: зынвэртаваць</seg>
       </tuv>
     </tu>
     <tu>
@@ -6776,8 +8142,8 @@
       <tuv lang="RU">
         <seg>Сохранение состояния плеера при его выключении</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Захаваньне стану плэера падчас яго выключэньня</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T100224Z">
+        <seg>Захоўваць стан прайгравальніка падчас яго выключэньня</seg>
       </tuv>
     </tu>
     <tu>
@@ -6816,8 +8182,8 @@
       <tuv lang="RU">
         <seg>Сохранить треклист</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>TL=Захаваць плэйліст</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T093734Z">
+        <seg>Захаваць плэйліст</seg>
       </tuv>
     </tu>
     <tu>
@@ -6825,39 +8191,47 @@
         <seg>Сохранять очередь при закрытии программы</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Захоўваць чаргу падчас зачыненьня праграмы</seg>
+        <seg>Захоўваць чаргу падчас зачыненьня праґрамы</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Сохранять плейлист &quot;Default&quot;</seg>
+        <seg>Сохранять плейлист "Default"</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Захоўваць плэйліст &quot;Default&quot;</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061548Z">
+        <seg>Захоўваць плэйліст «Default»</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Сохранять полные пути к файлам (рекомендуется)</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174431Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110126T174431Z">
         <seg>Захоўваць поўныя шляхі да файлаў (рэкамэндавана)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Сохранять состояние плеера при навигации по плейлисту с помощью кнопок &quot;следующий / предыдущий файл&quot;</seg>
+        <seg>Сохранять состояние плеера при навигации по плейлисту с помощью кнопок "следующий / предыдущий файл"</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T183902Z" changeid="eratyk">
-        <seg>Захоўваць стан плэера падчас навігацыі па плэйлісьце з дапамогай кнопак &quot;наступны / папярэдні файл&quot;</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T212322Z">
+        <seg>Захоўваць стан прайгравальніка падчас навігацыі па плэйлісьце з дапамогай кнопак «наступны / папярэдні файл»</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>Сохранять состояние плеера при навигации по плейлисту с помощью кнопок &quot;сьледующий / предыдущий файл&quot;</seg>
+        <seg>Сохранять состояние плеера при навигации по плейлисту с помощью кнопок "сьледующий / предыдущий файл"</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Захоўваць стан плэера падчас навігацыі па плэйлісьце з дапамогай кнопак &quot;наступны / папярэдні файл&quot;</seg>
+        <seg>Захоўваць стан плэера падчас навігацыі па плэйлісьце з дапамогай кнопак "наступны / папярэдні файл"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Список визуализаций</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T055807Z">
+        <seg>Сьпіс візуалізацыяў</seg>
       </tuv>
     </tu>
     <tu>
@@ -6896,7 +8270,7 @@
       <tuv lang="RU">
         <seg>Сразу начинать воспроизведение файлов</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T184008Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T184008Z">
         <seg>Адразу пачынаць прайграваньне файлаў</seg>
       </tuv>
     </tu>
@@ -6934,10 +8308,18 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Старт</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T210710Z">
+        <seg>Прайграць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Старт/Пауза</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T173811Z" changeid="eratyk">
-        <seg>Граць/Паўза</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221756Z">
+        <seg>Прайграць/Прыпыніць</seg>
       </tuv>
     </tu>
     <tu>
@@ -6976,7 +8358,7 @@
       <tuv lang="RU">
         <seg>Схватить и перетащить</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174117Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110126T174117Z">
         <seg>Перацягваньне</seg>
       </tuv>
     </tu>
@@ -6984,7 +8366,7 @@
       <tuv lang="RU">
         <seg>Считать файл прослушанным после проигрывания:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T172331Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T172331Z">
         <seg>Лічыць файл праслуханым пасьля прайграваньня:</seg>
       </tuv>
     </tu>
@@ -6994,6 +8376,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Лічыць файл праслуханым пасьля прайграваньня:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Съемный диск|Компакт диск</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T185830Z">
+        <seg>Вымальны дыск|Кружэлка</seg>
       </tuv>
     </tu>
     <tu>
@@ -7033,7 +8423,7 @@
         <seg>Сьвернуть программу в трей</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Згарнуць праграму ў латок</seg>
+        <seg>Згарнуць праґраму ў латок</seg>
       </tuv>
     </tu>
     <tu>
@@ -7094,6 +8484,22 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Текст песни</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221224Z">
+        <seg>Тэкст песьні</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Текст песни:</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T215921Z">
+        <seg>Тэкст песьні:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Текущее значение:</seg>
       </tuv>
       <tuv lang="be">
@@ -7142,6 +8548,22 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Только для Windows 7 и выше.\nОбложка так же должна поддерживать размытие.</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20111019T205123Z">
+        <seg>Толькі для Windows 7 і вышэй.\nВокладка таксама павінна падтрымліваць размыцьцё.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Только для Windows 7 и выше.\nОбложка также должна поддерживать размытие.</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190841Z">
+        <seg>Толькі для Windows 7 і вышэй.\nВокладка таксама павінна падтрымліваць размыцьцё.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Трей</seg>
       </tuv>
       <tuv lang="be">
@@ -7154,6 +8576,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Трэк №</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Убирать флажок с файла после успешной конвертациии</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211019Z">
+        <seg>Прыбіраць сьцяжок з файла пасьля пасьпяховае канвэртацыі</seg>
       </tuv>
     </tu>
     <tu>
@@ -7178,6 +8608,30 @@
       </tuv>
       <tuv lang="be">
         <seg>Выдаленьне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Удаление устаревших файлов...</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T190036Z">
+        <seg>Выдаленьне састарэлых файлаў…</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Удаление файлов</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T191251Z">
+        <seg>Выдаленьне файлаў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Удаление...</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T200316Z">
+        <seg>Высталёўваньне…</seg>
       </tuv>
     </tu>
     <tu>
@@ -7230,6 +8684,14 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Удалить выбранные плейлисты с диска</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190229Z">
+        <seg>Выдаліць абраныя файлы з дыска</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Удалить выбранные файлы</seg>
       </tuv>
       <tuv lang="be">
@@ -7273,7 +8735,7 @@
         <seg>Удалить информацию о ReplayGain из тегов</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Выдаліць інфармацыю аб ReplayGain з тэгаў</seg>
+        <seg>Выдаліць інфармацыю аб ReplayGain з тэґаў</seg>
       </tuv>
     </tu>
     <tu>
@@ -7310,6 +8772,14 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Удалить пользовательские настройки</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T200240Z">
+        <seg>Выдаліць карыстальніцкія налады</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Удалить проигрываемый файл с диска</seg>
       </tuv>
       <tuv lang="be">
@@ -7318,17 +8788,33 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Удалить прообраз</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190306Z">
+        <seg>Выдаліць правобраз</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Удалить резервные копии предыдущих версий</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T200220Z">
+        <seg>Выдаліць рэзэрвовыя копіі папярэдніх вэрсіяў</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Удалить тег</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Выдаліць тэг</seg>
+        <seg>Выдаліць тэґ</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Удалить файлы без отметки</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T162640Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T162640Z">
         <seg>Выдаліць файлы без адзнакі</seg>
       </tuv>
     </tu>
@@ -7336,15 +8822,31 @@
       <tuv lang="RU">
         <seg>Удалить физически</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190235Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T190235Z">
         <seg>Выдаліць фізычна</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Удалять исходный файл после успешной конвертации</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211023Z">
+        <seg>Выдаляць зыходны файл пасьля пасьпяховае канвэртацыі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Удалять плейлист при закрытии вкладки</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T190910Z">
+        <seg>Выдаляць плэйліст падчас зачыненьня укладкі</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Удалять тишину более 0.5 секунд</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T161651Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T161651Z">
         <seg>Выдаляць цішыню, большую за 0,5 сэкунды</seg>
       </tuv>
     </tu>
@@ -7360,7 +8862,7 @@
       <tuv lang="RU">
         <seg>Укажите файл, который следует проиграть:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T185824Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T185824Z">
         <seg>Азначце файл, які варта прайграць:</seg>
       </tuv>
     </tu>
@@ -7370,6 +8872,22 @@
       </tuv>
       <tuv lang="be">
         <seg>Азначце файл, які варта прайграць:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Укажите, какие языки необходимо установить:</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195144Z">
+        <seg>Азначце, якія мовы неабходна ўсталяваць:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Указать настройки прокси вручную</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20111019T205316Z">
+        <seg>Азначыць налады пасярэдніка ўручную</seg>
       </tuv>
     </tu>
     <tu>
@@ -7400,8 +8918,8 @@
       <tuv lang="RU">
         <seg>Управление плеером горячими клавишами</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Кіраваньне плэерам гарачымі клявішамі</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T100406Z">
+        <seg>Кіраваньне прайгравальнікам гарачымі клявішамі</seg>
       </tuv>
     </tu>
     <tu>
@@ -7418,6 +8936,46 @@
       </tuv>
       <tuv lang="be">
         <seg>Узмацненьне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Установить</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T185706Z">
+        <seg>Усталяваць</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Установка</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195724Z">
+        <seg>Усталёўваньне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Установка $NAME завершена!</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T200910Z">
+        <seg>Усталёўваньне $NAME скончанае!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Установка дополнительных компонент...</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T194152Z">
+        <seg>Усталёўваньне дадатковых кампанэнтаў…</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Установка отменена пользователем</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T194058Z">
+        <seg>Усталёўваньне скасаванае карыстальнікам</seg>
       </tuv>
     </tu>
     <tu>
@@ -7464,8 +9022,8 @@
       <tuv lang="RU">
         <seg>Файл или папка не найдена!</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T154905Z" changeid="eratyk">
-        <seg>Файл ці каталёг ня знойдзены!</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110117T154905Z">
+        <seg>Файл ці каталёґ ня знойдзены!</seg>
       </tuv>
     </tu>
     <tu>
@@ -7480,7 +9038,7 @@
       <tuv lang="RU">
         <seg>Файлы, добавленные пользователем</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190318Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T190318Z">
         <seg>Файлы, дададзеныя карыстальнікам</seg>
       </tuv>
     </tu>
@@ -7488,8 +9046,8 @@
       <tuv lang="RU">
         <seg>Файлы, которые будут скопированы в целевую папку вместе с основными.\n; - разделитель, * - неизвестная часть имени файла</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190737Z" changeid="eratyk">
-        <seg>Файлы, якія будуць скапіяваныя ў мэтавы каталёг разам з асноўнымі.\n; - падзяляльнік, * - невядомая частка назвы файла</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061934Z">
+        <seg>Файлы, якія будуць скапіяваныя ў мэтавы каталёґ разам з асноўнымі.\n; — падзяляльнік, * — невядомая частка назвы файла</seg>
       </tuv>
     </tu>
     <tu>
@@ -7497,7 +9055,7 @@
         <seg>Файлы, которые будут скопированы в целевую папку вместе с основными.\n; - разделитель, * - неизьвестная часть имени файла</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Файлы, якія будуць скапіяваныя ў мэтавы каталёг разам з асноўнымі.\n; - падзяляльнік, * - невядомая частка назвы файла</seg>
+        <seg>Файлы, якія будуць скапіяваныя ў мэтавы каталёґ разам з асноўнымі.\n; - падзяляльнік, * - невядомая частка назвы файла</seg>
       </tuv>
     </tu>
     <tu>
@@ -7512,7 +9070,7 @@
       <tuv lang="RU">
         <seg>Фильтр</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T160550Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T160550Z">
         <seg>Фільтар</seg>
       </tuv>
     </tu>
@@ -7520,16 +9078,24 @@
       <tuv lang="RU">
         <seg>Фильтр удаления голоса</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T162412Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T162412Z">
         <seg>Фільтар выдаленьня голасу</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Фильтр удаления голоса (только для стерео)</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T220005Z">
+        <seg>Фільтар выдаленьня голасу (толькі для стэрэа)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Фланжер</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T190226Z" changeid="eratyk">
-        <seg>Фланжэр</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T060755Z">
+        <seg>Фланджэр</seg>
       </tuv>
     </tu>
     <tu>
@@ -7546,6 +9112,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Фармат</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Формат сэмплов:</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211531Z">
+        <seg>Фармат сэмплаў:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7577,7 +9151,7 @@
         <seg>Целевая папка</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Мэтавы каталёг</seg>
+        <seg>Мэтавы каталёґ</seg>
       </tuv>
     </tu>
     <tu>
@@ -7592,8 +9166,16 @@
       <tuv lang="RU">
         <seg>Частота</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Частата</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T094149Z">
+        <seg>Часьціня</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Частота:</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T211613Z">
+        <seg>Часьціня:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7624,15 +9206,15 @@
       <tuv lang="RU">
         <seg>Шаблон бегущей строки</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T171538Z" changeid="eratyk">
-        <seg>Шаблён бягучага радка</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110117T171538Z">
+        <seg>Шаблён бягучага радку</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Шаблон всплывающей полоски</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T171132Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T171132Z">
         <seg>Шаблён усплывальнай палоскі</seg>
       </tuv>
     </tu>
@@ -7640,7 +9222,7 @@
       <tuv lang="RU">
         <seg>Шаблон имени файла:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T184933Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T184933Z">
         <seg>Шаблён назвы файла:</seg>
       </tuv>
     </tu>
@@ -7648,7 +9230,7 @@
       <tuv lang="RU">
         <seg>Шаблон по умолчанию:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110126T174442Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110126T174442Z">
         <seg>Шаблён:</seg>
       </tuv>
     </tu>
@@ -7656,15 +9238,15 @@
       <tuv lang="RU">
         <seg>Шаблон строки для копирования в буфер обмена</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T171555Z" changeid="eratyk">
-        <seg>Шаблён радка для капіяваньня ў буфэр</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110714T221408Z">
+        <seg>Шаблён радку для капіяваньня ў кішэню</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Шаблоны</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T171532Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T171532Z">
         <seg>Шаблёны</seg>
       </tuv>
     </tu>
@@ -7673,7 +9255,7 @@
         <seg>Шаблён бегущей строки</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Шаблён бягучага радка</seg>
+        <seg>Шаблён бягучага радку</seg>
       </tuv>
     </tu>
     <tu>
@@ -7705,7 +9287,7 @@
         <seg>Шаблён строки для копирования в буфэр обмена</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Шаблён радка для капіяваньня ў буфэр</seg>
+        <seg>Шаблён радку для капіяваньня ў буфэр</seg>
       </tuv>
     </tu>
     <tu>
@@ -7720,15 +9302,31 @@
       <tuv lang="RU">
         <seg>Эквалайзер</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T164252Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T164252Z">
         <seg>Эквалайзэр</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Эквалайзер (Вкл / Выкл)</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20111019T205019Z">
+        <seg>Эквалайзэр (Укл / Выкл)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Эквалайзер (вкл/выкл)</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T093633Z">
+        <seg>Эквалайзэр (укл/выкл)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>Эквалайзер (показать/спрятать)</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T163526Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T163526Z">
         <seg>Эквалайзэр (паказаць/схаваць)</seg>
       </tuv>
     </tu>
@@ -7745,7 +9343,7 @@
         <seg>Экспортировать категории плейлиста</seg>
       </tuv>
       <tuv lang="be">
-        <seg>Экспартаваць катэгорыі плэйлісту</seg>
+        <seg>Экспартаваць катэґорыі плэйлісту</seg>
       </tuv>
     </tu>
     <tu>
@@ -7754,6 +9352,14 @@
       </tuv>
       <tuv lang="be">
         <seg>Экспартаваць схаваныя запісы плэйлісту</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Эта программа поможет Вам установить $NAME на Ваш компьютер.\n\nПеред началом установки рекомендуется закрыть все работающие приложения. Это позволит программе установки обновить системные файлы без перезагрузки компьютера.\n\nНажмите кнопку "Далее" для продолжения.</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T194551Z">
+        <seg>Гэтая праґрама дапаможа Вам усталяваць $NAME на Ваш кампутар.\n\nПерад пачаткам усталёўваньня рэкамэндавана зачыніць усе праґрамы, што працуюць. Гэта дазволіць праґраме усталёўваньня абнавіць сыстэмныя файлы безь перазапуску  кампутара.\n\nНацісьніце кнопку «Далей», каб працягнуць.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7768,31 +9374,47 @@
       <tuv lang="RU">
         <seg>Язык интерфейса</seg>
       </tuv>
-      <tuv lang="be">
-        <seg>Мова інтэрфэйса</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20110920T093742Z">
+        <seg>Мова інтэрфэйсу</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>для сортировки по папкам используйте символ &quot;\&quot; в шаблоне</seg>
+        <seg>Язык по умолчанию:</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T155438Z" changeid="eratyk">
-        <seg>для сартаваньня па каталёгах выкарыстоўвайце сымбаль &quot;\&quot; у шаблёне</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195156Z">
+        <seg>Стандартная мова:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
-        <seg>для сортировки по папкам используйте символ &quot;\&quot; в шаблёне</seg>
+        <seg>Ярлыки</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T195246Z">
+        <seg>Пускальнікі</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>для сортировки по папкам используйте символ "\" в шаблоне</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120405T212112Z">
+        <seg>для сартаваньня па каталёґах выкарыстоўвайце сымбаль «\» у шаблёне</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>для сортировки по папкам используйте символ "\" в шаблёне</seg>
       </tuv>
       <tuv lang="be">
-        <seg>для сартаваньня па каталёгах выкарыстоўвайце знак &quot;\&quot; у шаблёне</seg>
+        <seg>для сартаваньня па каталёґах выкарыстоўвайце знак «\» у шаблёне</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="RU">
         <seg>сек.</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T161617Z" changeid="eratyk">
+      <tuv lang="be" changeid="eratyk" changedate="20110117T161617Z">
         <seg>сэк.</seg>
       </tuv>
     </tu>
@@ -7800,8 +9422,8 @@
       <tuv lang="RU">
         <seg>тег не найден - файл не будет переименован</seg>
       </tuv>
-      <tuv lang="be" changedate="20110117T161352Z" changeid="eratyk">
-        <seg>тэг ня знойдзены - файл ня будзе пераназваны</seg>
+      <tuv lang="be" changeid="eratyk" changedate="20120415T061912Z">
+        <seg>тэґ ня знойдзены — файл ня будзе пераназваны</seg>
       </tuv>
     </tu>
     <tu>
@@ -7810,6 +9432,17 @@
       </tuv>
       <tuv lang="be">
         <seg>№</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+    <tu>
+      <prop type="file">russian_installer.ini</prop>
+      <prop type="id">bUninstall</prop>
+      <tuv lang="RU">
+        <seg>Удалить</seg>
+      </tuv>
+      <tuv lang="be" changeid="eratyk" changedate="20120502T200443Z">
+        <seg>Высталяваць</seg>
       </tuv>
     </tu>
   </body>
